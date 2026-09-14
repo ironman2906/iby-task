@@ -1,12 +1,25 @@
 Evaluated 63 sessions, skipped 0
 ================================================================================
---- AGGREGATE METRICS (v1, one-to-one matched, imputed GT) ---
+
+--- COVERAGE CHECK (threshold=60s) ---
+Sessions flagged: 1
+  ses_20260701-152030-CHAITANYA0BCF (gap=962.6s)
+
+--- HEADLINE METRICS, ORIGINAL (63 sessions) ---
 Average IoU:                 0.552
 Match rate (IoU >= 0.5):      0.625
 Boundary precision (10s):     0.753
 Boundary recall (10s):        0.961
 Boundary F1:                  0.842
 Over-segmentation ratio:      2.08x
+
+--- COVERAGE-VALID METRICS (62 sessions) ---
+Average IoU:                 0.558
+Match rate (IoU >= 0.5):      0.633
+Boundary precision (10s):     0.753
+Boundary recall (10s):        0.971
+Boundary F1:                  0.847
+Over-segmentation ratio:      2.10x
 
 --- ERROR TYPE BREAKDOWN ---
   good                1262  (62.8%)
