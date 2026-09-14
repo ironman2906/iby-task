@@ -1,0 +1,23 @@
+Evaluated 63 sessions, skipped 0
+================================================================================
+--- AGGREGATE METRICS (v1, one-to-one matched, imputed GT) ---
+Average IoU:                 0.552
+Match rate (IoU >= 0.5):      0.625
+Boundary precision (10s):     0.753
+Boundary recall (10s):        0.961
+Boundary F1:                  0.842
+Over-segmentation ratio:      2.08x
+
+--- ERROR TYPE BREAKDOWN ---
+  good                1262  (62.8%)
+  over_segmented       642  (32.0%)
+  boundary_shift        61  (3.0%)
+  missed                26  (1.3%)
+  under_segmented       18  (0.9%)
+
+--- WORST 5 SESSIONS ---
+  ses_20260701-152030-CHAITANYA0BCF: avg_iou=0.162  f1=0.494  true=32  pred=29  errors={'over_segmented': 6, 'good': 5, 'missed': 21}
+  ses_20260701-054901-LAPTOP-R36BQBTE: avg_iou=0.337  f1=0.536  true=28  pred=61  errors={'over_segmented': 16, 'boundary_shift': 5, 'missed': 2, 'under_segmented': 2, 'good': 3}
+  ses_20260701-103521-LAPTOP-0IM1OHQH: avg_iou=0.457  f1=0.827  true=32  pred=78  errors={'good': 10, 'over_segmented': 22}
+  ses_20260701-055918-MSI: avg_iou=0.471  f1=0.839  true=33  pred=73  errors={'over_segmented': 14, 'boundary_shift': 3, 'good': 16}
+  ses_20260701-055037-Marcos: avg_iou=0.482  f1=0.807  true=30  pred=69  errors={'good': 14, 'over_segmented': 14, 'boundary_shift': 2}
