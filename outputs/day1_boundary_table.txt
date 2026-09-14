@@ -1,0 +1,165 @@
+Session              | Point type         | Process         | Signals
+------------------------------------------------------------------------------------------------------------------------------------------
+ses_20260630-121953- | TRUE boundary      | [C]             | app=True  gap=False(3457ms) url=False text=False
+ses_20260630-121953- | TRUE boundary      | [B]             | app=True  gap=False(2028ms) url=False text=True 
+ses_20260630-121953- | CONTROL (midpoint) | [O]             | app=False gap=True (25732ms) url=False text=False
+ses_20260630-124826- | TRUE boundary      | [K]             | app=True  gap=False(4262ms) url=True  text=True 
+ses_20260630-124826- | TRUE boundary      | [F]             | app=False gap=True (39399ms) url=True  text=True 
+ses_20260630-124826- | CONTROL (midpoint) | [I]             | app=False gap=True (19233ms) url=False text=False
+ses_20260630-125757- | TRUE boundary      | [C]             | app=True  gap=False(3214ms) url=False text=False
+ses_20260630-125757- | TRUE boundary      | [N]             | app=True  gap=False(3272ms) url=False text=True 
+ses_20260630-125757- | CONTROL (midpoint) | [C]             | app=False gap=False(0ms) url=False text=False
+ses_20260630-131729- | TRUE boundary      | [D]             | app=False gap=True (18144ms) url=False text=True 
+ses_20260630-131729- | TRUE boundary      | [O]             | app=True  gap=False(2635ms) url=True  text=True 
+ses_20260630-131729- | CONTROL (midpoint) | [G]             | app=True  gap=False(2742ms) url=False text=True 
+ses_20260630-132737- | TRUE boundary      | [E]             | app=False gap=False(3226ms) url=False text=True 
+ses_20260630-132737- | TRUE boundary      | [C]             | app=True  gap=False(3080ms) url=False text=True 
+ses_20260630-132737- | CONTROL (midpoint) | [D]             | app=False gap=True (33797ms) url=False text=False
+ses_20260630-135201- | TRUE boundary      | [O]             | app=False gap=False(2566ms) url=False text=False
+ses_20260630-135201- | TRUE boundary      | [I]             | app=True  gap=False(3713ms) url=False text=False
+ses_20260630-135201- | CONTROL (midpoint) | [C]             | app=False gap=True (38130ms) url=False text=False
+ses_20260630-135451- | TRUE boundary      | [J]             | app=False gap=False(3867ms) url=True  text=True 
+ses_20260630-135451- | TRUE boundary      | [M]             | app=True  gap=False(3450ms) url=True  text=True 
+ses_20260630-135451- | CONTROL (midpoint) | [I]             | app=False gap=True (18802ms) url=False text=False
+ses_20260630-145433- | TRUE boundary      | [H]             | app=False gap=False(3040ms) url=True  text=True 
+ses_20260630-145433- | TRUE boundary      | [K]             | app=False gap=False(3403ms) url=True  text=True 
+ses_20260630-145433- | CONTROL (midpoint) | [K]             | app=False gap=True (37274ms) url=False text=False
+ses_20260630-163424- | TRUE boundary      | [D]             | app=True  gap=False(3000ms) url=False text=False
+ses_20260630-163424- | TRUE boundary      | [B]             | app=True  gap=False(3743ms) url=True  text=False
+ses_20260630-163424- | CONTROL (midpoint) | [J]             | app=False gap=True (31221ms) url=False text=False
+ses_20260630-164418- | TRUE boundary      | [B]             | app=False gap=False(4671ms) url=True  text=False
+ses_20260630-164418- | TRUE boundary      | [A]             | app=False gap=False(4294ms) url=True  text=False
+ses_20260630-164418- | CONTROL (midpoint) | [B]             | app=False gap=True (35372ms) url=False text=False
+
+Total sessions inspected: 10
+Total true boundaries checked: 20
+
+======================================================================
+SUSPEND/RESUME INSPECTION
+======================================================================
+
+Session: ses_20260630-121953-LAPTOP-R36BQBTE
+  2026-06-30T12:21:12.794418+00:00  process_started         current=H  from=None  to=None
+  2026-06-30T12:21:41.332221+00:00  process_switched_out    current=H  from=H  to=C
+  2026-06-30T12:21:41.335282+00:00  process_started         current=C  from=None  to=None
+  2026-06-30T12:22:25.680580+00:00  process_switched_out    current=C  from=C  to=B
+  2026-06-30T12:22:25.682643+00:00  process_started         current=B  from=None  to=None
+  2026-06-30T12:23:22.089303+00:00  process_switched_out    current=B  from=B  to=A
+  2026-06-30T12:23:22.090864+00:00  process_started         current=A  from=None  to=None
+  2026-06-30T12:23:46.001092+00:00  process_switched_out    current=A  from=A  to=M
+  2026-06-30T12:23:46.003666+00:00  process_started         current=M  from=None  to=None
+  2026-06-30T12:24:20.921107+00:00  process_switched_out    current=M  from=M  to=C
+  2026-06-30T12:24:20.924171+00:00  process_started         current=C  from=None  to=None
+  2026-06-30T12:24:53.806914+00:00  process_switched_out    current=C  from=C  to=B
+  2026-06-30T12:24:53.808438+00:00  process_started         current=B  from=None  to=None
+  2026-06-30T12:25:11.308831+00:00  process_suspended       current=B  from=B  to=H
+  2026-06-30T12:26:02.529449+00:00  process_started         current=H  from=None  to=None
+  2026-06-30T12:26:32.486677+00:00  process_switched_out    current=H  from=H  to=A
+  2026-06-30T12:26:32.488202+00:00  process_started         current=A  from=None  to=None
+  2026-06-30T12:26:55.497696+00:00  process_switched_out    current=A  from=A  to=M
+  2026-06-30T12:26:55.499262+00:00  process_started         current=M  from=None  to=None
+  2026-06-30T12:27:38.178310+00:00  process_switched_out    current=M  from=M  to=H
+  2026-06-30T12:27:38.179852+00:00  process_started         current=H  from=None  to=None
+  2026-06-30T12:28:02.650411+00:00  process_started         current=H  from=None  to=None
+  2026-06-30T12:28:45.840345+00:00  process_switched_out    current=H  from=H  to=J
+  2026-06-30T12:28:45.841909+00:00  process_started         current=J  from=None  to=None
+  2026-06-30T12:29:08.849625+00:00  process_switched_out    current=J  from=J  to=G
+  2026-06-30T12:29:08.851162+00:00  process_started         current=G  from=None  to=None
+  2026-06-30T12:29:26.327121+00:00  process_started         current=G  from=None  to=None
+  2026-06-30T12:29:48.734321+00:00  process_switched_out    current=G  from=G  to=A
+  2026-06-30T12:29:48.738459+00:00  process_started         current=A  from=None  to=None
+  2026-06-30T12:30:16.343479+00:00  process_switched_out    current=A  from=A  to=C
+  2026-06-30T12:30:16.346287+00:00  process_started         current=C  from=None  to=None
+  2026-06-30T12:30:59.737845+00:00  process_switched_out    current=C  from=C  to=B
+  2026-06-30T12:30:59.741103+00:00  process_resumed         current=B  from=None  to=None
+  2026-06-30T12:32:06.461432+00:00  process_switched_out    current=B  from=B  to=A
+  2026-06-30T12:32:06.464478+00:00  process_started         current=A  from=None  to=None
+  2026-06-30T12:32:47.003314+00:00  process_switched_out    current=A  from=A  to=E
+  2026-06-30T12:32:47.004857+00:00  process_started         current=E  from=None  to=None
+  2026-06-30T12:33:14.763293+00:00  process_switched_out    current=E  from=E  to=M
+  2026-06-30T12:33:14.766353+00:00  process_started         current=M  from=None  to=None
+  2026-06-30T12:33:52.808425+00:00  process_started         current=M  from=None  to=None
+  2026-06-30T12:34:28.680180+00:00  process_switched_out    current=M  from=M  to=G
+  2026-06-30T12:34:28.683333+00:00  process_started         current=G  from=None  to=None
+  2026-06-30T12:34:54.396611+00:00  process_switched_out    current=G  from=G  to=J
+  2026-06-30T12:34:54.399147+00:00  process_started         current=J  from=None  to=None
+  2026-06-30T12:35:17.321832+00:00  process_switched_out    current=J  from=J  to=G
+  2026-06-30T12:35:17.324363+00:00  process_started         current=G  from=None  to=None
+  2026-06-30T12:36:00.979399+00:00  process_switched_out    current=G  from=G  to=J
+  2026-06-30T12:36:00.981445+00:00  process_started         current=J  from=None  to=None
+  2026-06-30T12:36:28.932883+00:00  process_switched_out    current=J  from=J  to=O
+  2026-06-30T12:36:28.936570+00:00  process_started         current=O  from=None  to=None
+  2026-06-30T12:37:00.192122+00:00  process_switched_out    current=O  from=O  to=E
+  2026-06-30T12:37:00.195233+00:00  process_started         current=E  from=None  to=None
+  2026-06-30T12:37:29.052665+00:00  process_switched_out    current=E  from=E  to=C
+  2026-06-30T12:37:29.054797+00:00  process_started         current=C  from=None  to=None
+  2026-06-30T12:38:09.952572+00:00  process_switched_out    current=C  from=C  to=E
+  2026-06-30T12:38:09.955157+00:00  process_started         current=E  from=None  to=None
+  2026-06-30T12:39:10.883173+00:00  process_switched_out    current=E  from=E  to=O
+  2026-06-30T12:39:10.886250+00:00  process_started         current=O  from=None  to=None
+  2026-06-30T12:40:55.675988+00:00  process_started         current=O  from=None  to=None
+
+Session: ses_20260630-124826-CHAITANYA0BCF
+  2026-06-30T12:49:20.542539+00:00  process_started         current=M  from=None  to=None
+  2026-06-30T12:49:59.457850+00:00  process_switched_out    current=M  from=M  to=K
+  2026-06-30T12:49:59.457850+00:00  process_started         current=K  from=None  to=None
+  2026-06-30T12:51:00.762014+00:00  process_switched_out    current=K  from=K  to=F
+  2026-06-30T12:51:00.763588+00:00  process_started         current=F  from=None  to=None
+  2026-06-30T12:51:26.235750+00:00  process_switched_out    current=F  from=F  to=N
+  2026-06-30T12:51:26.236396+00:00  process_started         current=N  from=None  to=None
+  2026-06-30T12:52:07.674203+00:00  process_switched_out    current=N  from=N  to=K
+  2026-06-30T12:52:07.674203+00:00  process_started         current=K  from=None  to=None
+  2026-06-30T12:52:34.698697+00:00  process_suspended       current=K  from=K  to=L
+  2026-06-30T12:53:14.540471+00:00  process_started         current=L  from=None  to=None
+  2026-06-30T12:53:36.360765+00:00  process_switched_out    current=L  from=L  to=G
+  2026-06-30T12:53:36.360765+00:00  process_started         current=G  from=None  to=None
+  2026-06-30T12:54:00.352665+00:00  process_started         current=G  from=None  to=None
+  2026-06-30T12:54:23.490214+00:00  process_started         current=G  from=None  to=None
+  2026-06-30T12:54:46.769224+00:00  process_switched_out    current=G  from=G  to=L
+  2026-06-30T12:54:46.769754+00:00  process_started         current=L  from=None  to=None
+  2026-06-30T12:55:12.501775+00:00  process_switched_out    current=L  from=L  to=I
+  2026-06-30T12:55:12.503326+00:00  process_started         current=I  from=None  to=None
+  2026-06-30T12:56:37.984807+00:00  process_switched_out    current=I  from=I  to=A
+  2026-06-30T12:56:37.985328+00:00  process_started         current=A  from=None  to=None
+  2026-06-30T12:57:06.250845+00:00  process_switched_out    current=A  from=A  to=F
+  2026-06-30T12:57:06.251582+00:00  process_started         current=F  from=None  to=None
+  2026-06-30T12:57:36.500900+00:00  process_switched_out    current=F  from=F  to=A
+  2026-06-30T12:57:36.502358+00:00  process_started         current=A  from=None  to=None
+  2026-06-30T12:58:05.919716+00:00  process_switched_out    current=A  from=A  to=L
+  2026-06-30T12:58:05.920400+00:00  process_started         current=L  from=None  to=None
+  2026-06-30T12:58:29.457646+00:00  process_switched_out    current=L  from=L  to=I
+  2026-06-30T12:58:29.459235+00:00  process_started         current=I  from=None  to=None
+  2026-06-30T12:59:29.547686+00:00  process_switched_out    current=I  from=I  to=N
+  2026-06-30T12:59:29.548712+00:00  process_started         current=N  from=None  to=None
+  2026-06-30T13:00:02.755949+00:00  process_switched_out    current=N  from=N  to=M
+  2026-06-30T13:00:02.755949+00:00  process_started         current=M  from=None  to=None
+  2026-06-30T13:00:35.677911+00:00  process_switched_out    current=M  from=M  to=F
+  2026-06-30T13:00:35.677911+00:00  process_started         current=F  from=None  to=None
+  2026-06-30T13:01:02.003236+00:00  process_switched_out    current=F  from=F  to=A
+  2026-06-30T13:01:02.003766+00:00  process_started         current=A  from=None  to=None
+  2026-06-30T13:01:27.658080+00:00  process_switched_out    current=A  from=A  to=I
+  2026-06-30T13:01:27.658080+00:00  process_started         current=I  from=None  to=None
+  2026-06-30T13:02:42.184502+00:00  process_switched_out    current=I  from=I  to=K
+  2026-06-30T13:02:42.188884+00:00  process_resumed         current=K  from=None  to=None
+  2026-06-30T13:04:02.382708+00:00  process_switched_out    current=K  from=K  to=A
+  2026-06-30T13:04:02.385933+00:00  process_started         current=A  from=None  to=None
+  2026-06-30T13:04:31.961222+00:00  process_switched_out    current=A  from=A  to=E
+  2026-06-30T13:04:31.962158+00:00  process_started         current=E  from=None  to=None
+  2026-06-30T13:05:00.428951+00:00  process_switched_out    current=E  from=E  to=M
+  2026-06-30T13:05:00.429287+00:00  process_started         current=M  from=None  to=None
+  2026-06-30T13:05:34.603917+00:00  process_switched_out    current=M  from=M  to=A
+  2026-06-30T13:05:34.605486+00:00  process_started         current=A  from=None  to=None
+  2026-06-30T13:05:59.044743+00:00  process_switched_out    current=A  from=A  to=M
+  2026-06-30T13:05:59.044743+00:00  process_started         current=M  from=None  to=None
+  2026-06-30T13:06:36.467639+00:00  process_switched_out    current=M  from=M  to=D
+  2026-06-30T13:06:36.467639+00:00  process_started         current=D  from=None  to=None
+  2026-06-30T13:07:15.665985+00:00  process_switched_out    current=D  from=D  to=F
+  2026-06-30T13:07:15.667039+00:00  process_started         current=F  from=None  to=None
+  2026-06-30T13:07:39.697559+00:00  process_switched_out    current=F  from=F  to=N
+  2026-06-30T13:07:39.698197+00:00  process_started         current=N  from=None  to=None
+  2026-06-30T13:08:53.134774+00:00  process_switched_out    current=N  from=N  to=D
+  2026-06-30T13:08:53.136423+00:00  process_started         current=D  from=None  to=None
+  2026-06-30T13:09:32.741170+00:00  process_started         current=D  from=None  to=None
+  2026-06-30T13:10:07.950426+00:00  process_switched_out    current=D  from=D  to=E
+  2026-06-30T13:10:07.950426+00:00  process_started         current=E  from=None  to=None
+  2026-06-30T13:10:36.134532+00:00  process_started         current=E  from=None  to=None
