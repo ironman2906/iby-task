@@ -83,8 +83,8 @@
 
 ### Missing `end_ts` issue (found and resolved)
 - **257/2009 executions (12.8%) have `end_ts = None`**
-- Diagnosed the cause: checked `continues_to_next` for all 257 — only **1/257** was `True`, ruling out chunk-boundary spanning as the explanation.
-- Root cause: an unpaired `process_switched_out` in `gt.jsonl` generation — matches the spec's explicit warning that *"process_switched_out does not always pair up with every process_started."*
+- Checked `continues_to_next` across the affected executions; almost all missing-end executions have `continues_to_next=False`, so chunk-boundary spanning does not explain the missing-end issue.
+- Likely cause: incomplete start/end pairing in `gt.jsonl` generation — consistent with the spec's explicit warning that *"process_switched_out does not always pair up with every process_started."*
 - **Decision:** left the raw ground truth in `loaders.py` untouched (does not mutate or hide the issue). Built a separate, explicit, opt-in imputation module (`src/exploration/gt_imputation.py`) that:
   - Fills a missing `end_ts` using the **next execution's `start_ts`** within the same session
   - Justified by the gap-analysis finding below (near-zero median gap between transitions)
@@ -143,8 +143,8 @@ Large time gaps occur far more often **in the middle of a process** (80% of cont
 ### app_switch caveat
 `app_switch` events are very common overall (31.1% of all events, per Section 2), so a persistence/sustained-switch check (require the new app to hold for several subsequent events) is still necessary to avoid over-firing on trivial flickers (e.g., a quick alt-tab). Confirmed important since app_switch's raw frequency is much higher than its 55% true-boundary hit rate alone would suggest is "clean."
 
-### Why text_change works despite extracted_text being only 4.5% present per-event
-The check aggregates over a ±10s window (multiple events), so sparse per-event coverage still accumulates enough presence within a window to be usable as a windowed signal, even though it wouldn't work as a per-event signal.
+### text_change and sparse data
+The boundary inspection suggests that windowed aggregation can make sparse `extracted_text` observations useful: `text_change` fired at 60% of inspected true boundaries versus 10% of controls. This is notable given `extracted_text` is present on only 4.5% of individual events per Section 2 — the ±10s window evidently accumulates enough sparse observations to be usable as a windowed signal, even though it would not work as a per-event feature.
 
 ---
 
@@ -189,7 +189,7 @@ Observed in `ses_20260630-121953-LAPTOP-R36BQBTE` and `ses_20260630-124826-CHAIT
 
 ## 9. Final hypothesis for Day 2 (evidence-based signal ranking)
 
-Ranked by discriminative strength (TRUE-boundary rate minus CONTROL rate):
+Ranked by exploratory separation in the inspected sample (TRUE-boundary rate minus CONTROL rate):
 
 1. **url_change** — cleanest separation (+50pp, 0% false positive at controls)
 2. **text_change** — strong separation (+50pp)
@@ -205,7 +205,7 @@ Ranked by discriminative strength (TRUE-boundary rate minus CONTROL rate):
 - **Missing `end_ts` (12.8% of executions)** — handled via explicit, flagged imputation; downstream evaluation should be able to isolate imputed vs. raw segments if results look suspicious.
 - **Gap size is actively misleading** — must not be used naively; this is a genuine risk if reusing generic "idle time = new task" heuristics from other domains (e.g. web analytics session splitting), which do not transfer here.
 - **app_switch is very frequent** — needs careful persistence filtering, or it will cause heavy over-segmentation.
-- **extracted_text is sparse per-event (4.5%)** but usable in aggregate over a time window — must not be used as a per-event feature directly.
+- **extracted_text is sparse per-event (4.5%)** but appears usable in aggregate over a time window per Section 6 — must not be used as a per-event feature directly.
 - **Suspend/resume cycles exist** — v1 will not attempt to stitch these back together; this is a known, deliberate scope limitation that will likely show up as some "boundary_shift" or "over_segmented" errors in Day 2's evaluation for sessions containing suspensions.
 - **Duplicate `process_started` events exist in raw `gt.jsonl`** — mitigated by using `gt_manifest.json`'s cleaner `executions[]` structure as the primary ground truth source rather than parsing `gt.jsonl` directly for segmentation evaluation.
-- **Sample size caveat:** the boundary evidence table is based on 20 true boundaries / 10 controls across 10 of 63 sessions — a reasonably informative first pass, but Day 2/3 error analysis across all 63 sessions may reveal additional nuance not captured in this initial sample.
+- **Sample size caveat:** the boundary evidence table is based on a small exploratory sample — 20 true boundaries / 10 controls across 10 of 63 sessions. This is a reasonably informative first pass, but the signal-strength figures above should be treated as directional rather than statistically robust; Day 2/3 evaluation across all 63 sessions (via the full precision/recall/F1 metrics) provides the larger-sample check on whether these signals hold up.
