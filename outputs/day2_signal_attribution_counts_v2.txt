@@ -1,0 +1,10 @@
+Session: ses_20260701-054901-LAPTOP-R36BQBTE
+Total boundaries fired: 91
+
+Signal combination                       Count  %     
+text_change                                  76  83.5%
+app_switch+text_change                       12  13.2%
+app_switch+large_gap+text_change              3   3.3%
+
+text_change ALONE: 76/91 (83.5%)
+(v1 baseline was 97/112 = 86.6%)
