@@ -356,4 +356,19 @@ transient-text pattern filtering) than similarity threshold. Not
 addressed today per the Day 2 stopping criterion; revisit only if this
 pattern proves material on Dataset B during Day 3/4 analysis.
 
+## Known limitation: residual over-segmentation
+Dataset-wide over-segmentation ratio after v2 fixes: 1.88x (down from 2.08x
+in v1). Some sessions remain notably worse than average, e.g.:
+- ses_20260701-054901-LAPTOP-R36BQBTE: 28 true -> 53 predicted (1.89x)
+- ses_20260630-121953-LAPTOP-R36BQBTE: 32 true -> 65 predicted (2.03x)
+This segmentation should NOT be presented as highly accurate or
+production-ready. The residual is primarily attributable to the
+previously-diagnosed ~22% transient-text jitter (Day 2), which a
+similarity threshold cannot fully address since these pairs are not
+near-duplicates. Further reduction would likely require either a
+minimum-text-length/transient-pattern filter or moving beyond a
+purely-rule-based detector (e.g. a light supervised classifier trained
+on Dataset A's labeled boundaries) -- both deferred given the 5-day
+scope, documented here as a concrete next step for a future phase.
+
 ## Day 2 formally closed.
