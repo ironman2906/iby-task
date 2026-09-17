@@ -1,0 +1,12 @@
+Session: ses_20260701-054901-LAPTOP-R36BQBTE
+Total text_change-alone boundaries: 76
+
+Classification                                Count  %     
+likely_genuine (case/record ID changed)           42  55.3%
+likely_jitter (short transient text)              17  22.4%
+likely_genuine (large content change)             11  14.5%
+ambiguous                                          6   7.9%
+
+Similarity score distribution for these firings:
+  min=0.000  median=0.061  75th=0.371  max=0.770
+  (threshold is 0.85 — all these are below it by definition)
