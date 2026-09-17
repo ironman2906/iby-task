@@ -1,0 +1,7 @@
+Session: ses_20260701-054901-LAPTOP-R36BQBTE
+Total boundaries fired: 112
+
+Signal combination counts:
+  ('text_change',): 97
+  ('app_switch', 'text_change'): 12
+  ('app_switch', 'large_gap', 'text_change'): 3

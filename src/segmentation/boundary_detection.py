@@ -19,9 +19,10 @@ contradicts the "idle time = new task" assumption common in other domains.
 
 import sys
 from pathlib import Path
+import difflib
 
 sys.path.append(str(Path(__file__).parent.parent / "loading"))
-from loaders import get_active_app_name, get_gap_ms, get_url
+from loaders import get_active_app_name, get_gap_ms, get_url, get_extracted_text
 
 # ---- WEIGHTS FROM DAY 1 EVIDENCE TABLE ----
 SIGNAL_WEIGHTS = {
@@ -34,6 +35,13 @@ GAP_THRESHOLD_MS = 5000          # matches the threshold used in Day 1's evidenc
 MIN_APP_SWITCH_PERSISTENCE = 3   # app must hold for N events to count (flicker filter)
 BOUNDARY_SCORE_THRESHOLD = 0.50  # minimum net score to declare a boundary
 # --------------------------------------------
+TEXT_SIMILARITY_THRESHOLD = 0.85
+
+
+def texts_are_similar(t1, t2, threshold=TEXT_SIMILARITY_THRESHOLD):
+    if not t1 or not t2:
+        return False
+    return difflib.SequenceMatcher(None, t1, t2).ratio() >= threshold
 
 
 def compute_boundary_score(prev_state, curr_event, lookahead_events):
@@ -45,8 +53,7 @@ def compute_boundary_score(prev_state, curr_event, lookahead_events):
     gap = get_gap_ms(curr_event)
     curr_app = get_active_app_name(curr_event)
     curr_url = get_url(curr_event)
-    ctx = curr_event.get("context", {}) or {}
-    curr_text = ctx.get("extracted_text")
+    curr_text = get_extracted_text(curr_event)
 
     # app_switch (needs sustained persistence to avoid flicker — app_switch
     # is 31% of ALL events per Day 1's data_quality.py, so raw switches alone
@@ -63,8 +70,9 @@ def compute_boundary_score(prev_state, curr_event, lookahead_events):
 
     # text_change (windowed accumulation handled by comparing to prev_state's
     # last-seen text, since raw extracted_text is only 4.5% present per event)
-    if curr_text and prev_state.get("text") and curr_text != prev_state.get("text"):
-        score += SIGNAL_WEIGHTS["text_change"]
+    if curr_text and prev_state.get("text"):
+        if not texts_are_similar(curr_text, prev_state.get("text")):
+            score += SIGNAL_WEIGHTS["text_change"]
 
     # large_gap — NEGATIVE evidence per Day 1 finding
     if gap > GAP_THRESHOLD_MS:
@@ -77,6 +85,34 @@ def compute_boundary_score(prev_state, curr_event, lookahead_events):
     }
     return score, new_state
 
+def compute_boundary_score_with_signals(prev_state, curr_event, lookahead_events):
+    """
+    Diagnostic wrapper — does not change compute_boundary_score's behavior.
+    Re-derives which individual signals fired, for inspection only.
+    """
+    score, new_state = compute_boundary_score(prev_state, curr_event, lookahead_events)
+
+    fired = []
+    gap = get_gap_ms(curr_event)
+    curr_app = get_active_app_name(curr_event)
+    curr_url = get_url(curr_event)
+    ctx = curr_event.get("context", {}) or {}
+    curr_text = ctx.get("extracted_text")
+
+    if curr_app is not None and curr_app != prev_state.get("app"):
+        lookahead_apps = [get_active_app_name(e) for e in lookahead_events]
+        sustained = lookahead_apps.count(curr_app) >= max(1, MIN_APP_SWITCH_PERSISTENCE - 1)
+        if sustained:
+            fired.append("app_switch")
+    if curr_url is not None and prev_state.get("url") is not None and curr_url != prev_state.get("url"):
+        fired.append("url_change")
+    if curr_text and prev_state.get("text") and curr_text != prev_state.get("text"):
+        fired.append("text_change")
+    if gap > GAP_THRESHOLD_MS:
+        fired.append("large_gap")
+
+    return score, new_state, fired
+
 
 def detect_boundaries(events, score_threshold=BOUNDARY_SCORE_THRESHOLD):
     if not events:
@@ -86,7 +122,7 @@ def detect_boundaries(events, score_threshold=BOUNDARY_SCORE_THRESHOLD):
     state = {
         "app": get_active_app_name(events[0]),
         "url": get_url(events[0]),
-        "text": (events[0].get("context", {}) or {}).get("extracted_text"),
+        "text": get_extracted_text(events[0]),
     }
 
     for i in range(1, len(events)):
@@ -122,21 +158,35 @@ def boundaries_to_raw_segments(events, boundaries):
 
 
 def merge_short_segments(segments, min_duration_ms=5000, max_gap_to_merge_ms=3000):
-    """Merge trivial short fragments into a neighbor. Does not fix substantial
-    (>5s) fragmentation — that needs threshold tuning, not merging."""
+    """Merge trivial short fragments into a neighbor."""
     if not segments:
         return segments
+
     merged = [segments[0]]
+
     for seg in segments[1:]:
         prev = merged[-1]
+
         duration = seg["end_ms"] - seg["start_ms"]
         gap_from_prev = seg["start_ms"] - prev["end_ms"]
+
         if duration < min_duration_ms and gap_from_prev < max_gap_to_merge_ms:
             prev["end_ms"] = seg["end_ms"]
             prev["end_iso"] = seg["end_iso"]
             prev["events"].extend(seg["events"])
         else:
             merged.append(seg)
+
+    # NEW: merge a very short first segment forward into the second
+    if len(merged) > 1:
+        first_duration = merged[0]["end_ms"] - merged[0]["start_ms"]
+
+        if first_duration < min_duration_ms:
+            merged[1]["start_ms"] = merged[0]["start_ms"]
+            merged[1]["start_iso"] = merged[0]["start_iso"]
+            merged[1]["events"] = merged[0]["events"] + merged[1]["events"]
+            merged = merged[1:]
+
     return merged
 
 

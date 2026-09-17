@@ -1,0 +1,36 @@
+Evaluated 63 sessions, skipped 0
+================================================================================
+
+--- COVERAGE CHECK (threshold=60s) ---
+Sessions flagged: 1
+  ses_20260701-152030-CHAITANYA0BCF (gap=962.6s)
+
+--- HEADLINE METRICS, ORIGINAL (63 sessions) ---
+Average IoU:                 0.562
+Match rate (IoU >= 0.5):      0.667
+Boundary precision (10s):     0.755
+Boundary recall (10s):        0.929
+Boundary F1:                  0.829
+Over-segmentation ratio:      1.88x
+
+--- COVERAGE-VALID METRICS (62 sessions) ---
+Average IoU:                 0.568
+Match rate (IoU >= 0.5):      0.674
+Boundary precision (10s):     0.755
+Boundary recall (10s):        0.938
+Boundary F1:                  0.835
+Over-segmentation ratio:      1.90x
+
+--- ERROR TYPE BREAKDOWN ---
+  good                1343  (66.8%)
+  over_segmented       516  (25.7%)
+  boundary_shift        73  (3.6%)
+  missed                41  (2.0%)
+  under_segmented       36  (1.8%)
+
+--- WORST 5 SESSIONS ---
+  ses_20260701-152030-CHAITANYA0BCF: avg_iou=0.197  f1=0.473  true=32  pred=25  errors={'over_segmented': 4, 'good': 7, 'missed': 21}
+  ses_20260701-054901-LAPTOP-R36BQBTE: avg_iou=0.358  f1=0.543  true=28  pred=53  errors={'good': 6, 'over_segmented': 11, 'boundary_shift': 6, 'under_segmented': 2, 'missed': 3}
+  ses_20260701-055918-MSI: avg_iou=0.479  f1=0.822  true=33  pred=67  errors={'over_segmented': 14, 'good': 17, 'boundary_shift': 1, 'under_segmented': 1}
+  ses_20260701-095337-LAPTOP-0IM1OHQH: avg_iou=0.489  f1=0.746  true=32  pred=60  errors={'under_segmented': 2, 'missed': 1, 'over_segmented': 12, 'boundary_shift': 2, 'good': 15}
+  ses_20260701-103521-LAPTOP-0IM1OHQH: avg_iou=0.497  f1=0.792  true=32  pred=64  errors={'good': 14, 'boundary_shift': 4, 'over_segmented': 14}

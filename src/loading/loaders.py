@@ -108,3 +108,21 @@ def get_url(event):
     ctx = event.get("context", {}) or {}
     tab = ctx.get("active_browser_tab") or {}
     return tab.get("url")
+
+def get_extracted_text(event):
+    """
+    Safely extract the actual text string from context.extracted_text.
+    """
+    ctx = event.get("context", {}) or {}
+    raw = ctx.get("extracted_text")
+
+    if raw is None:
+        return None
+
+    if isinstance(raw, str):
+        return raw
+
+    if isinstance(raw, dict):
+        return raw.get("text")
+
+    return None
