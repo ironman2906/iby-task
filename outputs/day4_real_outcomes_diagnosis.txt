@@ -1,0 +1,26 @@
+Total unique reconciliation outcomes found: 29
+Resolved to a single fixed-amount vendor (row-tied): 13
+Ambiguous (multiple different vendors found across captures): 0
+Unresolved (no vendor row found at all -- likely a non-fixed-amount vendor): 16
+
+Invoice          Vendor                     Amount     Master    Diff% Decision
+INV-2026-7352    株式会社山田製作所                  393384     385000    2.18% 差異なし承認
+INV-2026-7299    東京電子工業株式会社                 530056     562800    5.82% 差異なし承認
+INV-2026-7300    大和商事株式会社                  1177577    1240000    5.03% 差異あり要確認
+INV-2026-7301    グローバルテック合同会社               749769     745000    0.64% 差異あり要確認
+INV-2026-7250    東京電子工業株式会社                 553309     562800    1.69% 差異なし承認
+INV-2026-7251    グローバルテック合同会社               741557     745000    0.46% 差異あり要確認
+INV-2026-7257    東京電子工業株式会社                 507672     562800    9.80% 差異なし承認
+INV-2026-7070    東京電子工業株式会社                 568642     562800    1.04% 差異なし承認
+INV-2026-7507    東京電子工業株式会社                 547164     562800    2.78% 差異あり要確認
+INV-2026-7509    東京電子工業株式会社                 565013     562800    0.39% 差異なし承認
+INV-2026-8001    グローバルテック合同会社               784303     745000    5.28% 差異なし承認
+INV-2026-8002    株式会社山田製作所                  363706     385000    5.53% 差異あり要確認
+INV-2026-8008    東京電子工業株式会社                 588515     562800    4.57% 差異あり要確認
+
+--- Diff% distribution by REAL logged decision (row-tied vendor only) ---
+差異なし承認: n=7  min=0.39%  median=2.18%  max=9.80%
+差異あり要確認: n=6  min=0.46%  median=4.57%  max=5.53%
+
+This script made NO changes to approval/hold logic, did not import
+or modify invoice_reconciliation_prototype.py, and performed no commit.

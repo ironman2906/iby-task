@@ -1,0 +1,25 @@
+Total unique reconciliation outcomes: 29
+Resolved to a single fixed-amount vendor: 13
+
+Invoice          Vendor                   Diff% 種別         Decision
+INV-2026-7352    株式会社山田製作所                2.18% 定常         差異なし承認
+INV-2026-7299    東京電子工業株式会社               5.82% 定常         差異なし承認
+INV-2026-7300    大和商事株式会社                 5.03% 調整         差異あり要確認
+INV-2026-7301    グローバルテック合同会社             0.64% 調整         差異あり要確認
+INV-2026-7250    東京電子工業株式会社               1.69% 定常         差異なし承認
+INV-2026-7251    グローバルテック合同会社             0.46% 調整         差異あり要確認
+INV-2026-7257    東京電子工業株式会社               9.80% 定常         差異なし承認
+INV-2026-7070    東京電子工業株式会社               1.04% 定常         差異なし承認
+INV-2026-7507    東京電子工業株式会社               2.78% 調整         差異あり要確認
+INV-2026-7509    東京電子工業株式会社               0.39% 定常         差異なし承認
+INV-2026-8001    グローバルテック合同会社             5.28% 定常         差異なし承認
+INV-2026-8002    株式会社山田製作所                5.53% 調整         差異あり要確認
+INV-2026-8008    東京電子工業株式会社               4.57% 調整         差異あり要確認
+
+--- Cross-tab: 種別 (type) x logged decision ---
+種別               差異なし承認        差異あり要確認
+調整                    0              6
+定常                    7              0
+
+This script made NO changes to approval/hold logic, did not import
+or modify invoice_reconciliation_prototype.py, and performed no commit.
