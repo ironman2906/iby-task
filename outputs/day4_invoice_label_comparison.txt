@@ -1,0 +1,4317 @@
+====================================================================================================
+INVOICE LABEL COMPARISON
+====================================================================================================
+
+Target segments: 44
+id_INV: 17
+請求書承認・経費精算: 27
+Sessions containing either label: 9
+
+----------------------------------------------------------------------------------------------------
+SESSION-LEVEL OVERVIEW
+----------------------------------------------------------------------------------------------------
+
+ses_20260701-164424-CHAITANYA0BCF
+  id_INV=5, 請求書承認・経費精算=4
+ses_20260701-173642-NEELA9BAF
+  id_INV=0, 請求書承認・経費精算=5
+ses_20260701-175258-LAPTOP-76QMG9DE
+  id_INV=1, 請求書承認・経費精算=2
+ses_20260701-175747-SIDDHIGUPTAB00B
+  id_INV=1, 請求書承認・経費精算=2
+ses_20260701-181413-LAPTOP-76QMG9DE
+  id_INV=1, 請求書承認・経費精算=3
+ses_20260701-181913-SIDDHIGUPTAB00B
+  id_INV=1, 請求書承認・経費精算=2
+ses_20260701-182634-NEELA9BAF
+  id_INV=2, 請求書承認・経費精算=2
+ses_20260701-190250-NEELA9BAF
+  id_INV=5, 請求書承認・経費精算=5
+ses_20260701-192455-NEELA9BAF
+  id_INV=1, 請求書承認・経費精算=2
+
+====================================================================================================
+DETAILED CHRONOLOGICAL INSPECTION
+====================================================================================================
+
+
+####################################################################################################
+SESSION: ses_20260701-164424-CHAITANYA0BCF
+####################################################################################################
+
+SEGMENT 1
+  label: id_INV
+  start: 2026-07-01T16:45:05.172Z
+  end: 2026-07-01T16:45:20.033Z
+  duration_s: 14.861
+  events_in_segment: 24
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 7
+    - mouse_click: 4
+    - browser_click: 3
+    - app_switch: 3
+    - keystroke: 2
+    - mouse_scroll: 2
+    - clipboard_change: 1
+    - shortcut: 1
+    - browser_form_input: 1
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-7345　金額：455,128円。差異あり要確認。
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - getsujitsu_teigaku_torihikisaki_ichiran [Compatibility Mode] - Word
+    - Translate page from Japanese?
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Calendar | New meeting | Microsoft Teams
+    - Untitled - Notepad
+    - Turn off extensions in developer mode
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Windows PowerShell
+    - ProcMine Agent
+    - com.procmine.agent-siw
+    - Program Manager
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+
+SEGMENT 2
+  label: 請求書承認・経費精算
+  start: 2026-07-01T16:45:35.684Z
+  end: 2026-07-01T16:45:43.119Z
+  duration_s: 7.435
+  events_in_segment: 23
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 6
+    - keystroke: 4
+    - mouse_scroll: 3
+    - mouse_click: 3
+    - browser_click: 3
+    - app_switch: 1
+    - clipboard_change: 1
+    - shortcut: 1
+    - browser_form_input: 1
+  extracted/useful text:
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Excel
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 22:15:35
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+10
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 9 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07010448-001
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7344
+716,232円
+調整
+登録済み
+P6-07010448-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7345
+455,128円
+調整
+登録済み
+P6-07010448-003
+V3002
+大和商事株式会社
+請求書承認 INV-2026-7346
+1,237,439円
+定常
+登録済み
+P6-07010448-004
+V3007
+福岡システム設計
+請求書承認 INV-2026-7347
+1,832,962円
+定常
+未処理
+P6-0701...
+    - Windows PowerShell
+    - getsujitsu_teigaku_torihikisaki_ichiran [Compatibility Mode] - Word
+    - Translate page from Japanese?
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Calendar | New meeting | Microsoft Teams
+    - Untitled - Notepad
+    - Turn off extensions in developer mode
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - ProcMine Agent
+    - com.procmine.agent-siw
+    - Program Manager
+    - http://127.0.0.1:5133/#/payroll-items
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7347　金額：1,832,962円。差異なし承認。
+
+SEGMENT 3
+  label: 請求書承認・経費精算
+  start: 2026-07-01T16:45:47.564Z
+  end: 2026-07-01T16:45:55.749Z
+  duration_s: 8.185
+  events_in_segment: 15
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5132/#/payroll-items
+  event_types:
+    - screenshot_smart: 5
+    - app_switch: 4
+    - browser_navigation: 1
+    - mouse_click: 1
+    - browser_click: 1
+    - mouse_scroll: 1
+    - window_state_change: 1
+    - window_title_change: 1
+  extracted/useful text:
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - HR人事給与システム
+    - Windows PowerShell
+    - getsujitsu_teigaku_torihikisaki_ichiran [Compatibility Mode] - Word
+    - Translate page from Japanese?
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Calendar | New meeting | Microsoft Teams
+    - Untitled - Notepad
+    - Turn off extensions in developer mode
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - ProcMine Agent
+    - com.procmine.agent-siw
+    - Program Manager
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 22:15:48
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+9
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 8 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07010448-001
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7344
+716,232円
+調整
+登録済み
+P6-07010448-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7345
+455,128円
+調整
+登録済み
+P6-07010448-003
+V3002
+大和商事株式会社
+請求書承認 INV-2026-7346
+1,237,439円
+定常
+登録済み
+P6-07010448-004
+V3007
+福岡システム設計
+請求書承認 INV-2026-7347
+1,832,962円
+定常
+登録済み
+P6-0701...
+    - 家族手当規程第１条（目的）従業員の家族扶養を支援するため、家族手当の支給条件・金額を定める。第２条（支給対象）配偶者（年収130万円未満）：月額15,000円。扶養子女1人目：月額10,000円、2人目以降5,000円。第３条（申請）扶養家族の異動があった場合は速やかに「家族手当変更届」を人事部へ提出すること。第４条（停止条件）配偶者・子女が上記所得条件を超えた場合は翌月から手当を停止する。附則本規程は2026年4月1日より施行する。
+    - Word
+    - kazoku_teate_kitei [Compatibility Mode] - Word
+
+SEGMENT 4
+  label: 請求書承認・経費精算
+  start: 2026-07-01T16:46:38.971Z
+  end: 2026-07-01T16:47:11.778Z
+  duration_s: 32.807
+  events_in_segment: 89
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - keystroke: 32
+    - screenshot_smart: 19
+    - mouse_click: 7
+    - browser_click: 7
+    - mouse_scroll: 6
+    - app_switch: 6
+    - shortcut: 5
+    - clipboard_change: 2
+    - browser_form_input: 2
+    - text_input_complete: 2
+    - window_title_change: 1
+  extracted/useful text:
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - kazoku_teate_kitei [Compatibility Mode] - Word
+    - getsujitsu_teigaku_torihikisaki_ichiran [Compatibility Mode] - Word
+    - Windows PowerShell
+    - Translate page from Japanese?
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Calendar | New meeting | Microsoft Teams
+    - Untitled - Notepad
+    - ProcMine Agent
+    - com.procmine.agent-siw
+    - Program Manager
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7348　金額：317,664円。差異なし承認。
+    - 請求書照合完了。INV-2026-7349　金額：452,219円。差異なし承認。
+    - Opening - Excel
+    - Excel
+    - expense_calc - Excel
+    - 1832962
+    - evt_c5bc0b5b-c70d-4842-8b9d-e3264ed51017
+    - evt_1e74cf67-1ea2-4263-99de-9404f0fd00e9
+    - evt_c06c7de5-d463-4d8c-8392-5504130ceb46
+    - evt_ab316772-5f91-481a-96e0-4151cf9c11b7
+    - =199
+    - evt_4b3cab26-7eef-4cb6-8866-5fec005342fc
+    - evt_4a57705f-89a8-4027-960b-32b12b13c677
+    - evt_02398bfe-d8fd-4773-8c8a-09bd7ceeb592
+    - evt_e166d262-c489-4ea5-907e-174ada041cfa
+    - 3825
+    - http://127.0.0.1:5133/#/payroll-items
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 22:17:07
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+7
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 6 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07010448-001
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7344
+716,232円
+調整
+登録済み
+P6-07010448-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7345
+455,128円
+調整
+登録済み
+P6-07010448-003
+V3002
+大和商事株式会社
+請求書承認 INV-2026-7346
+1,237,439円
+定常
+登録済み
+P6-07010448-004
+V3007
+福岡システム設計
+請求書承認 INV-2026-7347
+1,832,962円
+定常
+登録済み
+P6-0701...
+
+SEGMENT 5
+  label: id_INV
+  start: 2026-07-01T16:47:12.144Z
+  end: 2026-07-01T16:47:27.380Z
+  duration_s: 15.236
+  events_in_segment: 50
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - keystroke: 28
+    - screenshot_smart: 7
+    - shortcut: 4
+    - mouse_click: 2
+    - browser_click: 2
+    - app_switch: 2
+    - text_input_complete: 2
+    - clipboard_change: 1
+    - browser_form_input: 1
+    - window_title_change: 1
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-7350　金額：1,993,825円。差異あり要確認。
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - getsujitsu_teigaku_torihikisaki_ichiran [Compatibility Mode] - Word
+    - kazoku_teate_kitei [Compatibility Mode] - Word
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Windows PowerShell
+    - Translate page from Japanese?
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Calendar | New meeting | Microsoft Teams
+    - Untitled - Notepad
+    - ProcMine Agent
+    - com.procmine.agent-siw
+    - Program Manager
+    - Opening - Excel
+    - expense_calc - Excel
+    - Excel
+    - 1993825
+    - evt_797121e0-32f5-46c9-9bee-4fc36ff06b74
+    - evt_75487aba-6493-4963-8bdd-285d7e229cee
+    - evt_59b1ed77-84c7-4416-a46b-7e87bcb92474
+    - evt_84ea76c6-cf1b-4f8d-b23c-3e1c081542c8
+    - =121
+    - evt_53df180d-9bb8-48bb-9d90-5c822ca26b8c
+    - evt_804f37d8-1bd6-491c-abf0-b96b56207a6f
+    - evt_de94c992-4beb-4d29-9f66-6be3d87dcd34
+    - evt_aaa0f50a-ff79-41f3-9830-01ce4471e315
+    - 8687
+    - http://127.0.0.1:5133/#/payroll-items
+
+SEGMENT 6
+  label: 請求書承認・経費精算
+  start: 2026-07-01T16:47:27.564Z
+  end: 2026-07-01T16:48:06.369Z
+  duration_s: 38.805
+  events_in_segment: 51
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+    - http://127.0.0.1:5133/#/resident-tax
+  event_types:
+    - screenshot_smart: 15
+    - mouse_click: 7
+    - browser_click: 7
+    - keystroke: 6
+    - mouse_scroll: 5
+    - app_switch: 4
+    - clipboard_change: 2
+    - shortcut: 2
+    - browser_form_input: 2
+    - browser_navigation: 1
+  extracted/useful text:
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Excel
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 22:17:27
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+6
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 5 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07010448-001
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7344
+716,232円
+調整
+登録済み
+P6-07010448-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7345
+455,128円
+調整
+登録済み
+P6-07010448-003
+V3002
+大和商事株式会社
+請求書承認 INV-2026-7346
+1,237,439円
+定常
+登録済み
+P6-07010448-004
+V3007
+福岡システム設計
+請求書承認 INV-2026-7347
+1,832,962円
+定常
+登録済み
+P6-0701...
+    - getsujitsu_teigaku_torihikisaki_ichiran [Compatibility Mode] - Word
+    - kazoku_teate_kitei [Compatibility Mode] - Word
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Windows PowerShell
+    - Translate page from Japanese?
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Calendar | New meeting | Microsoft Teams
+    - Untitled - Notepad
+    - ProcMine Agent
+    - com.procmine.agent-siw
+    - Program Manager
+    - http://127.0.0.1:5133/#/payroll-items
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7351　金額：1,218,687円。差異あり要確認。
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 22:17:43
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+5
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 4 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07010448-001
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7344
+716,232円
+調整
+登録済み
+P6-07010448-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7345
+455,128円
+調整
+登録済み
+P6-07010448-003
+V3002
+大和商事株式会社
+請求書承認 INV-2026-7346
+1,237,439円
+定常
+登録済み
+P6-07010448-004
+V3007
+福岡システム設計
+請求書承認 INV-2026-7347
+1,832,962円
+定常
+登録済み
+P6-0701...
+    - 発注管理処理。スポット発注：梱包材料　数量 164　合計 6,314,164円　通常。発注書確認・登録完了。
+
+SEGMENT 7
+  label: id_INV
+  start: 2026-07-01T16:52:20.621Z
+  end: 2026-07-01T16:52:35.990Z
+  duration_s: 15.369
+  events_in_segment: 24
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - keystroke: 6
+    - screenshot_smart: 5
+    - mouse_click: 3
+    - browser_click: 3
+    - app_switch: 3
+    - clipboard_change: 1
+    - shortcut: 1
+    - browser_form_input: 1
+    - mouse_scroll: 1
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-7352　金額：393,384円。差異なし承認。
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - shinkui_keiyaku_tetsuzuki [Compatibility Mode] - Word
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Calendar | New meeting | Microsoft Teams
+    - *IT申請メモ - Notepad
+    - getsujitsu_teigaku_torihikisaki_ichiran [Compatibility Mode] - Word
+    - kazoku_teate_kitei [Compatibility Mode] - Word
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Windows PowerShell
+    - ProcMine Agent
+    - com.procmine.agent-siw
+    - Program Manager
+
+SEGMENT 8
+  label: id_INV
+  start: 2026-07-01T16:52:36.303Z
+  end: 2026-07-01T16:52:58.638Z
+  duration_s: 22.335
+  events_in_segment: 34
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 8
+    - mouse_click: 6
+    - browser_click: 6
+    - keystroke: 4
+    - mouse_scroll: 4
+    - clipboard_change: 2
+    - shortcut: 2
+    - browser_form_input: 2
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-7353　金額：437,452円。差異なし承認。
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - getsujitsu_teigaku_torihikisaki_ichiran [Compatibility Mode] - Word
+    - shinkui_keiyaku_tetsuzuki [Compatibility Mode] - Word
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Calendar | New meeting | Microsoft Teams
+    - *IT申請メモ - Notepad
+    - kazoku_teate_kitei [Compatibility Mode] - Word
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Windows PowerShell
+    - ProcMine Agent
+    - com.procmine.agent-siw
+    - Program Manager
+
+SEGMENT 9
+  label: id_INV
+  start: 2026-07-01T16:52:59.059Z
+  end: 2026-07-01T16:53:12.387Z
+  duration_s: 13.328
+  events_in_segment: 21
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+    - http://127.0.0.1:5133/#/resident-tax
+  event_types:
+    - screenshot_smart: 6
+    - mouse_click: 3
+    - browser_click: 3
+    - mouse_scroll: 3
+    - keystroke: 2
+    - clipboard_change: 1
+    - shortcut: 1
+    - browser_form_input: 1
+    - browser_navigation: 1
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-7355　金額：1,685,384円。差異なし承認。
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - getsujitsu_teigaku_torihikisaki_ichiran [Compatibility Mode] - Word
+    - shinkui_keiyaku_tetsuzuki [Compatibility Mode] - Word
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Calendar | New meeting | Microsoft Teams
+    - *IT申請メモ - Notepad
+    - kazoku_teate_kitei [Compatibility Mode] - Word
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Windows PowerShell
+    - ProcMine Agent
+    - com.procmine.agent-siw
+    - Program Manager
+
+
+####################################################################################################
+SESSION: ses_20260701-173642-NEELA9BAF
+####################################################################################################
+
+SEGMENT 10
+  label: 請求書承認・経費精算
+  start: 2026-07-01T17:40:52.708Z
+  end: 2026-07-01T17:41:18.541Z
+  duration_s: 25.833
+  events_in_segment: 40
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 10
+    - app_switch: 8
+    - mouse_click: 5
+    - browser_click: 5
+    - keystroke: 4
+    - clipboard_change: 2
+    - shortcut: 2
+    - browser_form_input: 2
+    - window_title_change: 1
+    - mouse_scroll: 1
+  extracted/useful text:
+    - kaigo_kyuugyou_kitei  -  Compatibility Mode - Word
+    - 財務会計システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - 月次定額取引先一覧概要毎月定額で請求が発生する取引先の一覧。請求書承認時の金額照合に使用する。定額取引先リストNo.1　株式会社山田製作所　製造委託費　月額 385,000円No.2　大和商事株式会社　原材料仕入　月額 1,240,000円No.3　東京電子工業株式会社　保守費　月額 562,800円No.4　グローバルテック合同会社　SaaS利用料　月額 745,000円No.5　北陸電子部品　部品供給　月額 420,000円照合手順受領した請求書のINV番号・金額・取引先名をこの一覧と照合すること。差異がある場合は要確認として保留する。
+    - Word
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - HR人事給与システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - *在庫調整メモ - Notepad
+    - 受発注在庫管理システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - Windows PowerShell
+    - Settings | Microsoft Teams
+    - com.procmine.agent-siw
+    - Program Manager
+    - 財務会計システム
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7533　金額：381,332円。差異なし承認。
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:11:18
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+11
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+8
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 10 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07047510-001
+V3008
+沖縄物流センター
+請求書承認 INV-2026-7532
+310,006円
+調整
+登録済み
+P6-07047510-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7533
+381,332円
+定常
+登録済み
+P6-07047510-003
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7534
+765,766円
+調整
+未処理
+P6-07047510-004
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7535
+583,781円
+定常
+未処理
+P6-0704751...
+
+SEGMENT 11
+  label: 請求書承認・経費精算
+  start: 2026-07-01T17:42:31.248Z
+  end: 2026-07-01T17:42:44.663Z
+  duration_s: 13.415
+  events_in_segment: 24
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - keystroke: 6
+    - screenshot_smart: 5
+    - app_switch: 3
+    - mouse_click: 3
+    - browser_click: 3
+    - mouse_scroll: 1
+    - clipboard_change: 1
+    - shortcut: 1
+    - browser_form_input: 1
+  extracted/useful text:
+    - 財務会計システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - Excel
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:12:30
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+8
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+8
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 8 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07047510-001
+V3008
+沖縄物流センター
+請求書承認 INV-2026-7532
+310,006円
+調整
+登録済み
+P6-07047510-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7533
+381,332円
+定常
+登録済み
+P6-07047510-003
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7534
+765,766円
+調整
+登録済み
+P6-07047510-004
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7535
+583,781円
+定常
+登録済み
+P6-0704751...
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - ProcMine Agent
+    - 受発注在庫管理システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - kaigo_kyuugyou_kitei  -  Compatibility Mode - Word
+    - HR人事給与システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - *在庫調整メモ - Notepad
+    - Windows PowerShell
+    - Settings | Microsoft Teams
+    - com.procmine.agent-siw
+    - Program Manager
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7536　金額：544,435円。差異なし承認。
+
+SEGMENT 12
+  label: 請求書承認・経費精算
+  start: 2026-07-01T17:42:54.020Z
+  end: 2026-07-01T17:43:50.942Z
+  duration_s: 56.922
+  events_in_segment: 59
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5132/#/payroll-items
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 18
+    - mouse_click: 8
+    - browser_click: 8
+    - mouse_scroll: 7
+    - keystroke: 6
+    - app_switch: 5
+    - clipboard_change: 2
+    - shortcut: 2
+    - browser_form_input: 2
+    - browser_navigation: 1
+  extracted/useful text:
+    - 財務会計システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - Excel
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:12:53
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+8
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+8
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 7 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07047510-001
+V3008
+沖縄物流センター
+請求書承認 INV-2026-7532
+310,006円
+調整
+登録済み
+P6-07047510-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7533
+381,332円
+定常
+登録済み
+P6-07047510-003
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7534
+765,766円
+調整
+登録済み
+P6-07047510-004
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7535
+583,781円
+定常
+登録済み
+P6-0704751...
+    - expense_calc - Excel
+    - Windows PowerShell
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - ProcMine Agent
+    - 受発注在庫管理システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - kaigo_kyuugyou_kitei  -  Compatibility Mode - Word
+    - HR人事給与システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - *在庫調整メモ - Notepad
+    - Settings | Microsoft Teams
+    - com.procmine.agent-siw
+    - Program Manager
+    - http://127.0.0.1:5133/#/payroll-items
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7537　金額：2,850,234円。差異なし承認。
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:13:10
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+7
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+8
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 6 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07047510-001
+V3008
+沖縄物流センター
+請求書承認 INV-2026-7532
+310,006円
+調整
+登録済み
+P6-07047510-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7533
+381,332円
+定常
+登録済み
+P6-07047510-003
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7534
+765,766円
+調整
+登録済み
+P6-07047510-004
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7535
+583,781円
+定常
+登録済み
+P6-0704751...
+    - HR人事給与システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:13:37
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+7
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+8
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 6 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07047510-001
+V3008
+沖縄物流センター
+請求書承認 INV-2026-7532
+310,006円
+調整
+登録済み
+P6-07047510-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7533
+381,332円
+定常
+登録済み
+P6-07047510-003
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7534
+765,766円
+調整
+登録済み
+P6-07047510-004
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7535
+583,781円
+定常
+登録済み
+P6-0704751...
+    - 給与変更登録。変更種別：役職手当廃止。適用日：2026-07-05。確認完了。
+
+SEGMENT 13
+  label: 請求書承認・経費精算
+  start: 2026-07-01T17:45:43.242Z
+  end: 2026-07-01T17:46:00.843Z
+  duration_s: 17.601
+  events_in_segment: 28
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 8
+    - app_switch: 4
+    - keystroke: 4
+    - mouse_click: 3
+    - browser_click: 3
+    - mouse_scroll: 2
+    - clipboard_change: 1
+    - shortcut: 1
+    - browser_form_input: 1
+    - window_title_change: 1
+  extracted/useful text:
+    - 財務会計システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - Excel
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:15:43
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+4
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+8
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 3 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07047510-001
+V3008
+沖縄物流センター
+請求書承認 INV-2026-7532
+310,006円
+調整
+登録済み
+P6-07047510-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7533
+381,332円
+定常
+登録済み
+P6-07047510-003
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7534
+765,766円
+調整
+登録済み
+P6-07047510-004
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7535
+583,781円
+定常
+登録済み
+P6-0704751...
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - HR人事給与システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - Settings | Microsoft Teams
+    - Windows PowerShell
+    - ProcMine Agent
+    - 受発注在庫管理システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - kaigo_kyuugyou_kitei  -  Compatibility Mode - Word
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - *在庫調整メモ - Notepad
+    - com.procmine.agent-siw
+    - Program Manager
+    - http://127.0.0.1:5133/#/payroll-items
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7541　金額：1,289,974円。差異あり要確認。
+    - File Explorer
+    - Home - File Explorer
+
+SEGMENT 14
+  label: 請求書承認・経費精算
+  start: 2026-07-01T17:46:07.092Z
+  end: 2026-07-01T17:46:43.006Z
+  duration_s: 35.914
+  events_in_segment: 78
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5132/#/social-insurance
+  event_types:
+    - screenshot_smart: 19
+    - mouse_click: 12
+    - browser_click: 12
+    - keystroke: 10
+    - mouse_scroll: 6
+    - shortcut: 5
+    - app_switch: 5
+    - clipboard_change: 4
+    - browser_form_input: 4
+    - browser_navigation: 1
+  extracted/useful text:
+    - Home - File Explorer
+    - http://127.0.0.1:5133/#/payroll-items
+    - 財務会計システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - HR人事給与システム
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - HR人事給与システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - Settings | Microsoft Teams
+    - Windows PowerShell
+    - ProcMine Agent
+    - 受発注在庫管理システム and 2 more pages - Profile 1 - Microsoft​ Edge
+    - kaigo_kyuugyou_kitei  -  Compatibility Mode - Word
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - *在庫調整メモ - Notepad
+    - com.procmine.agent-siw
+    - Program Manager
+    - File Explorer
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:16:07
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+3
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+8
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 2 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07047510-001
+V3008
+沖縄物流センター
+請求書承認 INV-2026-7532
+310,006円
+調整
+登録済み
+P6-07047510-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7533
+381,332円
+定常
+登録済み
+P6-07047510-003
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7534
+765,766円
+調整
+登録済み
+P6-07047510-004
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7535
+583,781円
+定常
+登録済み
+P6-0704751...
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:16:08
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+3
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+8
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 2 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07047510-001
+V3008
+沖縄物流センター
+請求書承認 INV-2026-7532
+310,006円
+調整
+登録済み
+P6-07047510-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7533
+381,332円
+定常
+登録済み
+P6-07047510-003
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7534
+765,766円
+調整
+登録済み
+P6-07047510-004
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7535
+583,781円
+定常
+登録済み
+P6-0704751...
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 福利厚生申請処理完了。種別：家族手当申請。対象：扶養家族追加登録。
+    - 福利厚生申請処理完了。種別：介護休業申請。対象：介護休業給付金手続き。
+    - 福利厚生申請処理完了。種別：住宅手当変更申請。対象：住居変更に伴う手当改定。
+
+
+####################################################################################################
+SESSION: ses_20260701-175258-LAPTOP-76QMG9DE
+####################################################################################################
+
+SEGMENT 15
+  label: id_INV
+  start: 2026-07-01T18:02:02.453Z
+  end: 2026-07-01T18:02:13.793Z
+  duration_s: 11.340
+  events_in_segment: 29
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 7
+    - mouse_click: 5
+    - browser_click: 5
+    - keystroke: 4
+    - clipboard_change: 2
+    - shortcut: 2
+    - browser_form_input: 2
+    - mouse_scroll: 2
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-7008　金額：408,812円。差異あり要確認。
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - QA OSD
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - gyomu_itaku_keihi_kitei  -  Compatibility Mode - Word
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - gyomu_itaku_ukeire_tetsuzuki  -  Compatibility Mode - Word
+    - *精算確認メモ - Notepad
+    - Home - File Explorer
+    - Translate page from Japanese?
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - 請求書照合完了。INV-2026-7009　金額：302,898円。差異あり要確認。
+
+SEGMENT 16
+  label: 請求書承認・経費精算
+  start: 2026-07-01T18:02:26.288Z
+  end: 2026-07-01T18:02:54.094Z
+  duration_s: 27.806
+  events_in_segment: 74
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - keystroke: 32
+    - screenshot_smart: 17
+    - app_switch: 5
+    - mouse_scroll: 4
+    - mouse_click: 4
+    - browser_click: 4
+    - shortcut: 4
+    - text_input_complete: 2
+    - clipboard_change: 1
+    - browser_form_input: 1
+  extracted/useful text:
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:32:25
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+11
+経費承認（管理職）
+8
+支払処理
+0
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 10 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07089771-001
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7008
+408,812円
+調整
+登録済み
+P6-07089771-002
+V3008
+沖縄物流センター
+請求書承認 INV-2026-7009
+302,898円
+調整
+登録済み
+P6-07089771-003
+V3007
+福岡システム設計
+請求書承認 INV-2026-7010
+2,009,014円
+定常
+未処理
+P6-07089771-004
+V3004
+関西物流サービス
+請求書承認 INV-2026-7011
+3,088,562円
+定常
+未処理
+P6-07089771-0...
+    - QA OSD
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - gyomu_itaku_keihi_kitei  -  Compatibility Mode - Word
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - gyomu_itaku_ukeire_tetsuzuki  -  Compatibility Mode - Word
+    - *精算確認メモ - Notepad
+    - Home - File Explorer
+    - Translate page from Japanese?
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - http://127.0.0.1:5133/#/payroll-items
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7010　金額：2,009,014円。差異なし承認。
+    - evt_d3a04a77-d97f-448f-ade4-8e4c311903e1
+    - evt_4718606e-2399-4029-be44-8f06ecbae4c9
+    - evt_414de3b3-c429-4f0d-a041-96620d6f597e
+    - evt_a0510046-075a-46ba-bd6a-ff629bc6a60c
+    - =308
+    - evt_38c14211-fc7a-4cf1-99ac-8a598ea6b44c
+    - evt_b71efa0e-4d6f-416d-bfd8-91c17c6c8464
+    - evt_2d3f2c00-dea2-49ef-b67d-1925f91493bf
+    - evt_8dbc56ed-8394-4ab9-a2a6-d378f787664f
+    - 8562
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:32:49
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+10
+経費承認（管理職）
+8
+支払処理
+0
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 9 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07089771-001
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7008
+408,812円
+調整
+登録済み
+P6-07089771-002
+V3008
+沖縄物流センター
+請求書承認 INV-2026-7009
+302,898円
+調整
+登録済み
+P6-07089771-003
+V3007
+福岡システム設計
+請求書承認 INV-2026-7010
+2,009,014円
+定常
+登録済み
+P6-07089771-004
+V3004
+関西物流サービス
+請求書承認 INV-2026-7011
+3,088,562円
+定常
+未処理
+P6-07089771-0...
+
+SEGMENT 17
+  label: 請求書承認・経費精算
+  start: 2026-07-01T18:03:10.124Z
+  end: 2026-07-01T18:03:57.195Z
+  duration_s: 47.071
+  events_in_segment: 103
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5132/#/payroll-items
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - keystroke: 34
+    - screenshot_smart: 24
+    - mouse_click: 10
+    - browser_click: 10
+    - app_switch: 6
+    - shortcut: 6
+    - mouse_scroll: 5
+    - clipboard_change: 3
+    - browser_form_input: 3
+    - text_input_complete: 2
+  extracted/useful text:
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:33:09
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+9
+経費承認（管理職）
+8
+支払処理
+0
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 8 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07089771-001
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7008
+408,812円
+調整
+登録済み
+P6-07089771-002
+V3008
+沖縄物流センター
+請求書承認 INV-2026-7009
+302,898円
+調整
+登録済み
+P6-07089771-003
+V3007
+福岡システム設計
+請求書承認 INV-2026-7010
+2,009,014円
+定常
+登録済み
+P6-07089771-004
+V3004
+関西物流サービス
+請求書承認 INV-2026-7011
+3,088,562円
+定常
+登録済み
+P6-07089771-0...
+    - QA OSD
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - gyomu_itaku_keihi_kitei  -  Compatibility Mode - Word
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - gyomu_itaku_ukeire_tetsuzuki  -  Compatibility Mode - Word
+    - *精算確認メモ - Notepad
+    - Home - File Explorer
+    - Translate page from Japanese?
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - http://127.0.0.1:5133/#/payroll-items
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7012　金額：1,720,278円。差異なし承認。
+    - 請求書照合完了。INV-2026-7013　金額：359,064円。差異なし承認。
+    - 請求書照合完了。INV-2026-7014　金額：677,045円。差異なし承認。
+    - evt_af29bb09-335d-44ce-a44a-6841945f0325
+    - evt_45f333bf-ebb6-4991-8c15-577e13b6a60e
+    - evt_771e5a52-830a-404e-b2c7-46ce3b57cd7c
+    - =69
+    - evt_99abfeff-2a32-4f95-859c-de1f5f9e8c63
+    - evt_1aa56d8d-8dfb-4e92-9cb5-83adb4c12ede
+    - evt_afb37f7f-9d8e-4525-a768-aade99874611
+    - evt_d1514517-10c1-4388-8061-25662af4b6bd
+    - 9498
+    - http://127.0.0.1:5132/#/payroll-items
+    - HR人事給与システム
+
+
+####################################################################################################
+SESSION: ses_20260701-175747-SIDDHIGUPTAB00B
+####################################################################################################
+
+SEGMENT 18
+  label: 請求書承認・経費精算
+  start: 2026-07-01T18:02:40.378Z
+  end: 2026-07-01T18:02:59.133Z
+  duration_s: 18.755
+  events_in_segment: 60
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - keystroke: 30
+    - screenshot_smart: 10
+    - shortcut: 4
+    - mouse_click: 3
+    - browser_click: 3
+    - app_switch: 3
+    - text_input_complete: 2
+    - mouse_scroll: 2
+    - clipboard_change: 1
+    - browser_form_input: 1
+    - window_title_change: 1
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-7299　金額：530,056円。差異なし承認。
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - shinkuitorihikisaki_touroku_tetsuzuki  -  Compatibility Mode - Word
+    - *在庫調整メモ - Notepad
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - gyomu_itaku_keihi_kitei  -  Compatibility Mode - Word
+    - kanrisya_kengen_shinsei_tetsuzuki  -  Compatibility Mode - Word
+    - Chat | Microsoft Teams
+    - Windows PowerShell
+    - ProcMine Agent
+    - ! company-iit-intern-2026 (Channel) - Imbesideyou - Slack
+    - *IT申請メモ - Notepad
+    - shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - com.procmine.agent-siw
+    - Downloads - File Explorer
+    - Mail - Siddhi Gupta - Outlook
+    - Program Manager
+    - Opening - Excel
+    - Excel
+    - expense_calc - Excel
+    - 530056
+    - evt_573c1dee-9be6-4529-a5a4-f47399707e23
+    - evt_f51f7fdc-d7a1-4796-81f4-1e20a1e03b01
+    - evt_6e879053-bd60-4391-a56c-5196d40600c1
+    - evt_74d39acd-2980-4a7d-9b40-8e5399582479
+    - evt_ba8eaa8e-1325-4640-aebc-f09cb74a7d25
+    - =1177
+    - evt_ed099ea4-8cbd-4583-8353-9578bb28f7e7
+    - evt_8ad003e2-b2a5-4bc9-820a-76ba4ec12d3f
+    - evt_6655ccb2-458a-41c0-9b1e-24a5355ff010
+    - evt_0834d64d-b2b7-40e7-b594-751f946028a8
+    - 577
+    - http://127.0.0.1:5133/#/payroll-items
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:32:54
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+12
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+8
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 11 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07106250-001
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7299
+530,056円
+定常
+登録済み
+P6-07106250-002
+V3002
+大和商事株式会社
+請求書承認 INV-2026-7300
+1,177,577円
+調整
+未処理
+P6-07106250-003
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7301
+749,769円
+調整
+未処理
+P6-07106250-004
+V3008
+沖縄物流センター
+請求書承認 INV-2026-7302
+285,502円
+定常
+未処理
+P6-07106250...
+
+SEGMENT 19
+  label: id_INV
+  start: 2026-07-01T18:02:59.560Z
+  end: 2026-07-01T18:03:33.007Z
+  duration_s: 33.447
+  events_in_segment: 53
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 15
+    - mouse_click: 8
+    - browser_click: 8
+    - keystroke: 6
+    - app_switch: 4
+    - clipboard_change: 3
+    - shortcut: 3
+    - browser_form_input: 3
+    - mouse_scroll: 3
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-7300　金額：1,177,577円。差異あり要確認。
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - shinkuitorihikisaki_touroku_tetsuzuki  -  Compatibility Mode - Word
+    - *在庫調整メモ - Notepad
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - gyomu_itaku_keihi_kitei  -  Compatibility Mode - Word
+    - kanrisya_kengen_shinsei_tetsuzuki  -  Compatibility Mode - Word
+    - Chat | Microsoft Teams
+    - Windows PowerShell
+    - ProcMine Agent
+    - ! company-iit-intern-2026 (Channel) - Imbesideyou - Slack
+    - *IT申請メモ - Notepad
+    - shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - com.procmine.agent-siw
+    - Downloads - File Explorer
+    - Mail - Siddhi Gupta - Outlook
+    - Program Manager
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7301　金額：749,769円。差異あり要確認。
+    - 請求書照合完了。INV-2026-7302　金額：285,502円。差異なし承認。
+
+SEGMENT 20
+  label: 請求書承認・経費精算
+  start: 2026-07-01T18:03:37.846Z
+  end: 2026-07-01T18:03:48.934Z
+  duration_s: 11.088
+  events_in_segment: 11
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+    - http://127.0.0.1:5134/#/social-insurance
+  event_types:
+    - screenshot_smart: 5
+    - app_switch: 2
+    - browser_navigation: 1
+    - mouse_click: 1
+    - browser_click: 1
+    - mouse_scroll: 1
+  extracted/useful text:
+    - *在庫調整メモ - Notepad
+    - 財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:33:37
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+9
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+8
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 8 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07106250-001
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7299
+530,056円
+定常
+登録済み
+P6-07106250-002
+V3002
+大和商事株式会社
+請求書承認 INV-2026-7300
+1,177,577円
+調整
+登録済み
+P6-07106250-003
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7301
+749,769円
+調整
+登録済み
+P6-07106250-004
+V3008
+沖縄物流センター
+請求書承認 INV-2026-7302
+285,502円
+定常
+登録済み
+P6-0710625...
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - shinkuitorihikisaki_touroku_tetsuzuki  -  Compatibility Mode - Word
+    - 受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+    - gyomu_itaku_keihi_kitei  -  Compatibility Mode - Word
+    - kanrisya_kengen_shinsei_tetsuzuki  -  Compatibility Mode - Word
+    - Chat | Microsoft Teams
+    - Windows PowerShell
+    - ProcMine Agent
+    - ! company-iit-intern-2026 (Channel) - Imbesideyou - Slack
+    - *IT申請メモ - Notepad
+    - shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - com.procmine.agent-siw
+    - Downloads - File Explorer
+    - Mail - Siddhi Gupta - Outlook
+    - Program Manager
+    - 受発注在庫管理システム
+
+
+####################################################################################################
+SESSION: ses_20260701-181413-LAPTOP-76QMG9DE
+####################################################################################################
+
+SEGMENT 21
+  label: 請求書承認・経費精算
+  start: 2026-07-01T18:20:30.770Z
+  end: 2026-07-01T18:21:20.283Z
+  duration_s: 49.513
+  events_in_segment: 89
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+    - http://127.0.0.1:5134/#/social-insurance
+  event_types:
+    - screenshot_smart: 25
+    - mouse_click: 13
+    - browser_click: 13
+    - keystroke: 10
+    - mouse_scroll: 10
+    - app_switch: 5
+    - clipboard_change: 4
+    - shortcut: 4
+    - browser_form_input: 4
+    - browser_navigation: 1
+  extracted/useful text:
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:50:29
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+11
+経費承認（管理職）
+12
+支払処理
+6
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 10 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07088456-001
+V3004
+関西物流サービス
+請求書承認 INV-2026-7246
+3,104,090円
+定常
+登録済み
+P6-07088456-002
+V3004
+関西物流サービス
+請求書承認 INV-2026-7247
+3,147,314円
+定常
+登録済み
+P6-07088456-003
+V3002
+大和商事株式会社
+請求書承認 INV-2026-7248
+1,283,435円
+定常
+未処理
+P6-07088456-004
+V3004
+関西物流サービス
+請求書承認 INV-2026-7249
+3,225,667円
+定常
+未処理
+P6-0708845...
+    - QA OSD
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - keiyaku_kaijo_tetsuzuki  -  Compatibility Mode - Word
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word
+    - shinkuitorihikisaki_touroku_tetsuzuki  -  Compatibility Mode - Word
+    - kanrisya_kengen_shinsei_tetsuzuki  -  Compatibility Mode - Word
+    - *IT申請メモ - Notepad
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - http://127.0.0.1:5133/#/payroll-items
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7248　金額：1,283,435円。差異なし承認。
+    - 請求書照合完了。INV-2026-7249　金額：3,225,667円。差異なし承認。
+    - 受発注在庫管理システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:50:55
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+9
+経費承認（管理職）
+12
+支払処理
+6
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 8 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07088456-001
+V3004
+関西物流サービス
+請求書承認 INV-2026-7246
+3,104,090円
+定常
+登録済み
+P6-07088456-002
+V3004
+関西物流サービス
+請求書承認 INV-2026-7247
+3,147,314円
+定常
+登録済み
+P6-07088456-003
+V3002
+大和商事株式会社
+請求書承認 INV-2026-7248
+1,283,435円
+定常
+登録済み
+P6-07088456-004
+V3004
+関西物流サービス
+請求書承認 INV-2026-7249
+3,225,667円
+定常
+登録済み
+P6-0708845...
+    - IT申請処理完了。申請種別：システム権限申請。申請者：坂本 裕二。情報システム部へ転送済み。
+    - IT申請処理完了。申請種別：システム権限申請。申請者：江口 さくら。情報システム部へ転送済み。
+
+SEGMENT 22
+  label: 請求書承認・経費精算
+  start: 2026-07-01T18:22:11.066Z
+  end: 2026-07-01T18:22:20.033Z
+  duration_s: 8.967
+  events_in_segment: 12
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 4
+    - app_switch: 3
+    - keystroke: 2
+    - mouse_click: 1
+    - browser_click: 1
+    - mouse_scroll: 1
+  extracted/useful text:
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:52:10
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+8
+経費承認（管理職）
+12
+支払処理
+6
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 7 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07088456-001
+V3004
+関西物流サービス
+請求書承認 INV-2026-7246
+3,104,090円
+定常
+登録済み
+P6-07088456-002
+V3004
+関西物流サービス
+請求書承認 INV-2026-7247
+3,147,314円
+定常
+登録済み
+P6-07088456-003
+V3002
+大和商事株式会社
+請求書承認 INV-2026-7248
+1,283,435円
+定常
+登録済み
+P6-07088456-004
+V3004
+関西物流サービス
+請求書承認 INV-2026-7249
+3,225,667円
+定常
+登録済み
+P6-0708845...
+    - QA OSD
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - kanrisya_kengen_shinsei_tetsuzuki  -  Compatibility Mode - Word
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - *IT申請メモ - Notepad
+    - keiyaku_kaijo_tetsuzuki  -  Compatibility Mode - Word
+    - shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word
+    - shinkuitorihikisaki_touroku_tetsuzuki  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - http://127.0.0.1:5133/#/payroll-items
+
+SEGMENT 23
+  label: id_INV
+  start: 2026-07-01T18:22:20.600Z
+  end: 2026-07-01T18:22:51.327Z
+  duration_s: 30.727
+  events_in_segment: 50
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 13
+    - mouse_click: 8
+    - browser_click: 8
+    - keystroke: 6
+    - mouse_scroll: 4
+    - clipboard_change: 3
+    - shortcut: 3
+    - browser_form_input: 3
+    - app_switch: 2
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-7251　金額：741,557円。差異あり要確認。
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - QA OSD
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - kanrisya_kengen_shinsei_tetsuzuki  -  Compatibility Mode - Word
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - *IT申請メモ - Notepad
+    - keiyaku_kaijo_tetsuzuki  -  Compatibility Mode - Word
+    - shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word
+    - shinkuitorihikisaki_touroku_tetsuzuki  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7252　金額：287,747円。差異あり要確認。
+    - 請求書照合完了。INV-2026-7253　金額：2,996,979円。差異なし承認。
+
+SEGMENT 24
+  label: 請求書承認・経費精算
+  start: 2026-07-01T18:26:19.109Z
+  end: 2026-07-01T18:26:59.925Z
+  duration_s: 40.816
+  events_in_segment: 100
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - keystroke: 34
+    - screenshot_smart: 24
+    - mouse_click: 9
+    - browser_click: 9
+    - shortcut: 6
+    - app_switch: 5
+    - mouse_scroll: 5
+    - clipboard_change: 3
+    - browser_form_input: 3
+    - text_input_complete: 2
+  extracted/useful text:
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:56:18
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+4
+経費承認（管理職）
+12
+支払処理
+6
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 3 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07088456-001
+V3004
+関西物流サービス
+請求書承認 INV-2026-7246
+3,104,090円
+定常
+登録済み
+P6-07088456-002
+V3004
+関西物流サービス
+請求書承認 INV-2026-7247
+3,147,314円
+定常
+登録済み
+P6-07088456-003
+V3002
+大和商事株式会社
+請求書承認 INV-2026-7248
+1,283,435円
+定常
+登録済み
+P6-07088456-004
+V3004
+関西物流サービス
+請求書承認 INV-2026-7249
+3,225,667円
+定常
+登録済み
+P6-0708845...
+    - QA OSD
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - keiyaku_kaijo_tetsuzuki  -  Compatibility Mode - Word
+    - *IT申請メモ - Notepad
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - Microsoft Teams
+    - shinkuitorihikisaki_touroku_tetsuzuki  -  Compatibility Mode - Word
+    - shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - kanrisya_kengen_shinsei_tetsuzuki  -  Compatibility Mode - Word
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - http://127.0.0.1:5133/#/payroll-items
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7255　金額：1,125,703円。差異なし承認。
+    - 請求書照合完了。INV-2026-7256　金額：300,793円。差異あり要確認。
+    - evt_2963378a-cf91-46b4-9b9f-ec216f12397f
+    - evt_b472c112-53a5-4d44-a352-7ec487040992
+    - evt_ca741055-6173-43e8-a815-176d6ea8dc8c
+    - =50
+    - evt_4de2789a-de52-4d43-a6cc-d6f5a301e5fc
+    - evt_5b139dab-88a0-40a2-94af-c0d1fde6f594
+    - evt_72657c4a-f805-43ef-817a-095e630a0278
+    - evt_8ab56408-2abe-4b88-892e-144ec64aafc8
+    - 7672
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:56:51
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+2
+経費承認（管理職）
+12
+支払処理
+6
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 1 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07088456-001
+V3004
+関西物流サービス
+請求書承認 INV-2026-7246
+3,104,090円
+定常
+登録済み
+P6-07088456-002
+V3004
+関西物流サービス
+請求書承認 INV-2026-7247
+3,147,314円
+定常
+登録済み
+P6-07088456-003
+V3002
+大和商事株式会社
+請求書承認 INV-2026-7248
+1,283,435円
+定常
+登録済み
+P6-07088456-004
+V3004
+関西物流サービス
+請求書承認 INV-2026-7249
+3,225,667円
+定常
+登録済み
+P6-0708845...
+    - 請求書照合完了。INV-2026-7257　金額：507,672円。差異なし承認。
+
+
+####################################################################################################
+SESSION: ses_20260701-181913-SIDDHIGUPTAB00B
+####################################################################################################
+
+SEGMENT 25
+  label: id_INV
+  start: 2026-07-01T18:27:04.929Z
+  end: 2026-07-01T18:27:33.686Z
+  duration_s: 28.757
+  events_in_segment: 55
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 15
+    - mouse_click: 9
+    - browser_click: 9
+    - keystroke: 6
+    - mouse_scroll: 5
+    - clipboard_change: 3
+    - shortcut: 3
+    - browser_form_input: 3
+    - app_switch: 2
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-7071　金額：1,799,084円。差異なし承認。
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - shinkuitorihikisaki_touroku_tetsuzuki  -  Compatibility Mode - Word
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - gyomu_itaku_keihi_kitei  -  Compatibility Mode - Word
+    - Chat | Microsoft Teams
+    - Untitled - Notepad
+    - ProcMine Agent
+    - Windows PowerShell
+    - ! company-iit-intern-2026 (Channel) - Imbesideyou - 1 new item - Slack
+    - *在庫調整メモ - Notepad
+    - kanrisya_kengen_shinsei_tetsuzuki  -  Compatibility Mode - Word
+    - *IT申請メモ - Notepad
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - com.procmine.agent-siw
+    - Downloads - File Explorer
+    - Mail - Siddhi Gupta - Outlook
+    - Program Manager
+    - 請求書照合完了。INV-2026-7073　金額：574,134円。差異あり要確認。
+
+SEGMENT 26
+  label: 請求書承認・経費精算
+  start: 2026-07-01T18:27:33.957Z
+  end: 2026-07-01T18:27:47.576Z
+  duration_s: 13.619
+  events_in_segment: 18
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - keystroke: 4
+    - screenshot_smart: 3
+    - mouse_click: 2
+    - browser_click: 2
+    - shortcut: 2
+    - app_switch: 2
+    - clipboard_change: 1
+    - browser_form_input: 1
+    - window_title_change: 1
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-7074　金額：400,826円。差異あり要確認。
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - shinkuitorihikisaki_touroku_tetsuzuki  -  Compatibility Mode - Word
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - gyomu_itaku_keihi_kitei  -  Compatibility Mode - Word
+    - Chat | Microsoft Teams
+    - Untitled - Notepad
+    - ProcMine Agent
+    - Windows PowerShell
+    - ! company-iit-intern-2026 (Channel) - Imbesideyou - 1 new item - Slack
+    - *在庫調整メモ - Notepad
+    - kanrisya_kengen_shinsei_tetsuzuki  -  Compatibility Mode - Word
+    - *IT申請メモ - Notepad
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - com.procmine.agent-siw
+    - Downloads - File Explorer
+    - Mail - Siddhi Gupta - Outlook
+    - Program Manager
+    - File Explorer
+    - Home - File Explorer
+    - http://127.0.0.1:5133/#/payroll-items
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:57:47
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+5
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 4 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07101496-001
+V3004
+関西物流サービス
+請求書承認 INV-2026-7067
+3,164,947円
+定常
+登録済み
+P6-07101496-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7068
+412,027円
+定常
+登録済み
+P6-07101496-003
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7069
+718,263円
+定常
+登録済み
+P6-07101496-004
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7070
+568,642円
+定常
+登録済み
+P6-0710...
+
+SEGMENT 27
+  label: 請求書承認・経費精算
+  start: 2026-07-01T18:27:47.624Z
+  end: 2026-07-01T18:27:58.723Z
+  duration_s: 11.099
+  events_in_segment: 20
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5134/#/payroll-items
+  event_types:
+    - screenshot_smart: 6
+    - keystroke: 4
+    - mouse_click: 2
+    - browser_click: 2
+    - shortcut: 2
+    - clipboard_change: 2
+    - browser_navigation: 1
+    - app_switch: 1
+  extracted/useful text:
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 受発注在庫管理システム
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - shinkuitorihikisaki_touroku_tetsuzuki  -  Compatibility Mode - Word
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - gyomu_itaku_keihi_kitei  -  Compatibility Mode - Word
+    - Chat | Microsoft Teams
+    - Untitled - Notepad
+    - ProcMine Agent
+    - Windows PowerShell
+    - ! company-iit-intern-2026 (Channel) - Imbesideyou - 1 new item - Slack
+    - *在庫調整メモ - Notepad
+    - kanrisya_kengen_shinsei_tetsuzuki  -  Compatibility Mode - Word
+    - *IT申請メモ - Notepad
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - com.procmine.agent-siw
+    - Downloads - File Explorer
+    - Mail - Siddhi Gupta - Outlook
+    - Program Manager
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/01 23:57:48
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+5
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 4 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07101496-001
+V3004
+関西物流サービス
+請求書承認 INV-2026-7067
+3,164,947円
+定常
+登録済み
+P6-07101496-002
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7068
+412,027円
+定常
+登録済み
+P6-07101496-003
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7069
+718,263円
+定常
+登録済み
+P6-07101496-004
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7070
+568,642円
+定常
+登録済み
+P6-0710...
+    - http://127.0.0.1:5134/#/payroll-items
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+
+
+####################################################################################################
+SESSION: ses_20260701-182634-NEELA9BAF
+####################################################################################################
+
+SEGMENT 28
+  label: id_INV
+  start: 2026-07-01T18:29:33.772Z
+  end: 2026-07-01T18:29:45.970Z
+  duration_s: 12.198
+  events_in_segment: 13
+  apps:
+    - NONE
+  urls:
+    - NONE
+  event_types:
+    - app_switch: 5
+    - screenshot_smart: 3
+    - keystroke: 2
+    - window_title_change: 1
+    - clipboard_change: 1
+    - shortcut: 1
+  extracted/useful text:
+    - shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 月次定額取引先一覧概要毎月定額で請求が発生する取引先の一覧。請求書承認時の金額照合に使用する。定額取引先リストNo.1　株式会社山田製作所　製造委託費　月額 385,000円No.2　大和商事株式会社　原材料仕入　月額 1,240,000円No.3　東京電子工業株式会社　保守費　月額 562,800円No.4　グローバルテック合同会社　SaaS利用料　月額 745,000円No.5　北陸電子部品　部品供給　月額 420,000円照合手順受領した請求書のINV番号・金額・取引先名をこの一覧と照合すること。差異がある場合は要確認として保留する。
+    - Word
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - Restore pages
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - kazoku_teate_kitei  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - *精算確認メモ - Notepad
+    - Settings | Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7506　金額：3,037,210円。差異あり要確認。月次定額取引先一覧概要毎月定額で請求が発生する取引先の一覧。請求書承認時の金額照合に使用する。定額取引先リストNo.1　株式会社山田製作所　製造委託費　月額 385,000円No.2　大和商事株式会社　原材料仕入　月額 1,240,000円No.3　東京電子工業株式会社　保守費　月額 562,800円No.4　グローバルテック合同会社　SaaS利用料　月額 745,000円No.5　北陸電子部品　部品供給　月額 420,000円照合手順受領した請求書のINV番号・金額・取引先名をこの一覧と照合すること。差異がある場合は要確認として保留する。
+    - Translate page from Japanese?
+
+SEGMENT 29
+  label: id_INV
+  start: 2026-07-01T18:30:55.761Z
+  end: 2026-07-01T18:31:24.096Z
+  duration_s: 28.335
+  events_in_segment: 65
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - keystroke: 28
+    - screenshot_smart: 14
+    - mouse_click: 5
+    - shortcut: 5
+    - app_switch: 4
+    - clipboard_change: 2
+    - mouse_scroll: 2
+    - text_input_complete: 2
+    - upload_started: 1
+    - window_title_change: 1
+    - window_state_change: 1
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-7507　金額：547,164円。差異あり要確認。
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - kazoku_teate_kitei  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - *精算確認メモ - Notepad
+    - Settings | Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - 請求書照合完了。INV-2026-7508　金額：547,254円。差異なし承認。
+    - Opening - Excel
+    - Excel
+    - expense_calc - Excel
+    - 3037210
+    - evt_1b6dbe86-d48d-44a8-955c-403eb1c824e0
+    - evt_d92ef2ec-8cf9-42a2-91e4-f9f175aa0bcf
+    - evt_da0bb026-e50a-4a6c-9794-1a67e129e0e7
+    - evt_9eb9dad8-6c99-4ace-9b00-8159bc9d8276
+    - =565
+    - evt_a26f4c77-6c5d-478f-98cb-9b0dec348918
+    - evt_666cd65d-3ffa-4d11-b6be-702643fb501e
+    - evt_a87260e8-7601-4683-a5be-97c3b4672471
+    - evt_f7fabe85-8378-4888-9744-6b1ca5501401
+    - 013
+    - http://127.0.0.1:5133/#/payroll-items
+
+SEGMENT 30
+  label: 請求書承認・経費精算
+  start: 2026-07-01T18:31:24.451Z
+  end: 2026-07-01T18:31:36.491Z
+  duration_s: 12.040
+  events_in_segment: 19
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 6
+    - keystroke: 4
+    - app_switch: 3
+    - mouse_click: 3
+    - mouse_scroll: 1
+    - clipboard_change: 1
+    - shortcut: 1
+  extracted/useful text:
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - Excel
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/02 00:00:16
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+11
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 10 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07046495-001
+V3004
+関西物流サービス
+請求書承認 INV-2026-7506
+3,037,210円
+調整
+未処理
+P6-07046495-002
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7507
+547,164円
+調整
+登録済み
+P6-07046495-003
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7508
+547,254円
+定常
+登録済み
+P6-07046495-004
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7509
+565,013円
+定常
+未処理
+P6-070464...
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - kazoku_teate_kitei  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - *精算確認メモ - Notepad
+    - Settings | Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - http://127.0.0.1:5133/#/payroll-items
+    - 請求書照合完了。INV-2026-7509　金額：565,013円。差異なし承認。
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+
+SEGMENT 31
+  label: 請求書承認・経費精算
+  start: 2026-07-01T18:31:40.659Z
+  end: 2026-07-01T18:32:16.327Z
+  duration_s: 35.668
+  events_in_segment: 33
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5132/#/leave-applications
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 11
+    - mouse_click: 5
+    - mouse_scroll: 4
+    - browser_click: 4
+    - app_switch: 2
+    - keystroke: 2
+    - upload_completed: 1
+    - browser_navigation: 1
+    - clipboard_change: 1
+    - shortcut: 1
+    - browser_form_input: 1
+  extracted/useful text:
+    - Settings | Microsoft Teams
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/02 00:00:32
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+10
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 9 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07046495-001
+V3004
+関西物流サービス
+請求書承認 INV-2026-7506
+3,037,210円
+調整
+未処理
+P6-07046495-002
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7507
+547,164円
+調整
+登録済み
+P6-07046495-003
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7508
+547,254円
+定常
+登録済み
+P6-07046495-004
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7509
+565,013円
+定常
+登録済み
+P6-070464...
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - kazoku_teate_kitei  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - ikuji_kyuugyou_kitei  -  Compatibility Mode - Word
+    - *精算確認メモ - Notepad
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - HR人事給与システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/02 00:02:05
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+10
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 9 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07046495-001
+V3004
+関西物流サービス
+請求書承認 INV-2026-7506
+3,037,210円
+調整
+未処理
+P6-07046495-002
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7507
+547,164円
+調整
+登録済み
+P6-07046495-003
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7508
+547,254円
+定常
+登録済み
+P6-07046495-004
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7509
+565,013円
+定常
+登録済み
+P6-070464...
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 勤怠申請確認。種別：フレックス変更申請。取得日：2026-07-11。問題なし承認。
+
+
+####################################################################################################
+SESSION: ses_20260701-190250-NEELA9BAF
+####################################################################################################
+
+SEGMENT 32
+  label: id_INV
+  start: 2026-07-01T19:03:08.495Z
+  end: 2026-07-01T19:03:25.267Z
+  duration_s: 16.772
+  events_in_segment: 55
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - keystroke: 28
+    - screenshot_smart: 10
+    - app_switch: 4
+    - shortcut: 4
+    - window_state_change: 2
+    - mouse_click: 2
+    - browser_click: 2
+    - text_input_complete: 2
+    - window_title_change: 1
+  extracted/useful text:
+    - Word
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - 請求書照合完了。INV-2026-7506　金額：3,037,210円。差異あり要確認。月次定額取引先一覧概要毎月定額で請求が発生する取引先の一覧。請求書承認時の金額照合に使用する。定額取引先リストNo.1　株式会社山田製作所　製造委託費　月額 385,000円No.2　大和商事株式会社　原材料仕入　月額 1,240,000円No.3　東京電子工業株式会社　保守費　月額 562,800円No.4　グローバルテック合同会社　SaaS利用料　月額 745,000円No.5　北陸電子部品　部品供給　月額 420,000円照合手順受領した請求書のINV番号・金額・取引先名をこの一覧と照合すること。差異がある場合は要確認として保留する。
+    - Restore pages
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - Translate page from Japanese?
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - Settings | Microsoft Teams
+    - Turn off extensions in developer mode
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - *在庫調整メモ - Notepad
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - 財務会計システム
+    - Opening - Excel
+    - Excel
+    - expense_calc - Excel
+    - 565013
+    - evt_62980e2a-687f-4fc9-93b4-9a94d38dd64b
+    - evt_941f92d3-b5e7-429c-811a-89be530ffaed
+    - evt_a6e84fcf-ac7e-445b-8f89-52478682d82a
+    - evt_80bba3c6-87b6-4f16-aab7-bd7967f3c5dd
+    - =269
+    - evt_91149887-cf75-4c60-879e-d766d5ca3eb0
+    - evt_59cf1318-fbf3-4915-8fc4-026e6073440c
+    - evt_fd486ef9-64ca-4362-9b93-0aafacb4f93c
+    - evt_d8a6b1a9-d36c-4d35-b14d-7d04d08cc838
+    - 1742
+    - http://127.0.0.1:5133/#/payroll-items
+
+SEGMENT 33
+  label: 請求書承認・経費精算
+  start: 2026-07-01T19:03:25.559Z
+  end: 2026-07-01T19:03:33.472Z
+  duration_s: 7.913
+  events_in_segment: 12
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 4
+    - app_switch: 3
+    - keystroke: 2
+    - mouse_click: 1
+    - browser_click: 1
+    - mouse_scroll: 1
+  extracted/useful text:
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - Excel
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/02 00:33:24
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+12
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 11 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07046967-001
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7998
+536,841円
+定常
+登録済み
+P6-07046967-002
+V3004
+関西物流サービス
+請求書承認 INV-2026-7999
+2,691,742円
+定常
+未処理
+P6-07046967-003
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-8000
+380,199円
+定常
+未処理
+P6-07046967-004
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-8001
+784,303円
+定常
+未処理
+P6-07046...
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - Translate page from Japanese?
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - Settings | Microsoft Teams
+    - Turn off extensions in developer mode
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - *在庫調整メモ - Notepad
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - http://127.0.0.1:5133/#/payroll-items
+
+SEGMENT 34
+  label: id_INV
+  start: 2026-07-01T19:03:33.949Z
+  end: 2026-07-01T19:03:59.211Z
+  duration_s: 25.262
+  events_in_segment: 38
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 11
+    - mouse_click: 6
+    - browser_click: 6
+    - keystroke: 4
+    - mouse_scroll: 3
+    - clipboard_change: 2
+    - shortcut: 2
+    - browser_form_input: 2
+    - app_switch: 2
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-7999　金額：2,691,742円。差異なし承認。
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - Translate page from Japanese?
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - Settings | Microsoft Teams
+    - Turn off extensions in developer mode
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - *在庫調整メモ - Notepad
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-8000　金額：380,199円。差異なし承認。
+
+SEGMENT 35
+  label: id_INV
+  start: 2026-07-01T19:03:59.632Z
+  end: 2026-07-01T19:04:10.126Z
+  duration_s: 10.494
+  events_in_segment: 17
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 4
+    - mouse_click: 3
+    - browser_click: 3
+    - keystroke: 2
+    - mouse_scroll: 2
+    - clipboard_change: 1
+    - shortcut: 1
+    - browser_form_input: 1
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-8001　金額：784,303円。差異なし承認。
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - Translate page from Japanese?
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - Settings | Microsoft Teams
+    - Turn off extensions in developer mode
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - *在庫調整メモ - Notepad
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+
+SEGMENT 36
+  label: id_INV
+  start: 2026-07-01T19:04:10.349Z
+  end: 2026-07-01T19:04:57.856Z
+  duration_s: 47.507
+  events_in_segment: 70
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 19
+    - mouse_click: 11
+    - browser_click: 11
+    - keystroke: 8
+    - app_switch: 6
+    - clipboard_change: 4
+    - shortcut: 4
+    - browser_form_input: 4
+    - mouse_scroll: 3
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-8002　金額：363,706円。差異あり要確認。
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - Translate page from Japanese?
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - Settings | Microsoft Teams
+    - Turn off extensions in developer mode
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - *在庫調整メモ - Notepad
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - 請求書照合完了。INV-2026-8003　金額：422,043円。差異あり要確認。
+    - 請求書照合完了。INV-2026-8004　金額：525,797円。差異なし承認。
+
+SEGMENT 37
+  label: 請求書承認・経費精算
+  start: 2026-07-01T19:05:02.611Z
+  end: 2026-07-01T19:05:09.504Z
+  duration_s: 6.893
+  events_in_segment: 21
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5132/#/payroll-items
+  event_types:
+    - screenshot_smart: 7
+    - mouse_click: 3
+    - browser_click: 3
+    - keystroke: 2
+    - browser_navigation: 1
+    - app_switch: 1
+    - mouse_scroll: 1
+    - clipboard_change: 1
+    - shortcut: 1
+    - browser_form_input: 1
+  extracted/useful text:
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - HR人事給与システム
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - Translate page from Japanese?
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - Settings | Microsoft Teams
+    - Turn off extensions in developer mode
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - *在庫調整メモ - Notepad
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/02 00:35:03
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+5
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 4 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07046967-001
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7998
+536,841円
+定常
+登録済み
+P6-07046967-002
+V3004
+関西物流サービス
+請求書承認 INV-2026-7999
+2,691,742円
+定常
+登録済み
+P6-07046967-003
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-8000
+380,199円
+定常
+登録済み
+P6-07046967-004
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-8001
+784,303円
+定常
+登録済み
+P6-0704...
+    - 経費精算確認済み。費目：研修費　金額：25,213円。規程内であることを確認した。
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+
+SEGMENT 38
+  label: 請求書承認・経費精算
+  start: 2026-07-01T19:06:06.579Z
+  end: 2026-07-01T19:06:31.326Z
+  duration_s: 24.747
+  events_in_segment: 31
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 9
+    - app_switch: 5
+    - keystroke: 4
+    - mouse_click: 4
+    - browser_click: 4
+    - mouse_scroll: 2
+    - clipboard_change: 1
+    - shortcut: 1
+    - browser_form_input: 1
+  extracted/useful text:
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - Excel
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/02 00:36:05
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+4
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 3 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07046967-001
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7998
+536,841円
+定常
+登録済み
+P6-07046967-002
+V3004
+関西物流サービス
+請求書承認 INV-2026-7999
+2,691,742円
+定常
+登録済み
+P6-07046967-003
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-8000
+380,199円
+定常
+登録済み
+P6-07046967-004
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-8001
+784,303円
+定常
+登録済み
+P6-0704...
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - *精算確認メモ - Notepad
+    - Translate page from Japanese?
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - Settings | Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - http://127.0.0.1:5133/#/payroll-items
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-8007　金額：3,272,432円。差異あり要確認。
+
+SEGMENT 39
+  label: id_INV
+  start: 2026-07-01T19:06:31.833Z
+  end: 2026-07-01T19:06:49.244Z
+  duration_s: 17.411
+  events_in_segment: 54
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - keystroke: 30
+    - screenshot_smart: 8
+    - shortcut: 4
+    - mouse_click: 2
+    - browser_click: 2
+    - app_switch: 2
+    - text_input_complete: 2
+    - clipboard_change: 1
+    - browser_form_input: 1
+    - window_title_change: 1
+    - window_state_change: 1
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-8008　金額：588,515円。差異あり要確認。
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - *精算確認メモ - Notepad
+    - Translate page from Japanese?
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - Settings | Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - Opening - Excel
+    - Excel
+    - expense_calc - Excel
+    - 3272432
+    - evt_6880dd36-3cf1-45c1-83ee-006638bfe594
+    - =
+    - evt_cd702e6e-3098-4666-bdf2-75d8d4f32d40
+    - evt_562209c6-d64f-4101-a1d3-9ea717fbc601
+    - evt_91db9214-71e1-42e7-be13-65a60f781021
+    - evt_c07191f6-6b64-42cb-8b02-040b14dbd8d1
+    - evt_3e19a2e2-4966-4981-903e-7c84cebb2018
+    - evt_5de24a86-6b49-405b-ad35-2bcb5a06428e
+    - evt_210ca31b-9a4d-4f69-8c69-0d46b7036670
+    - 1876206
+    - http://127.0.0.1:5133/#/payroll-items
+
+SEGMENT 40
+  label: 請求書承認・経費精算
+  start: 2026-07-01T19:06:51.284Z
+  end: 2026-07-01T19:07:00.413Z
+  duration_s: 9.129
+  events_in_segment: 22
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 7
+    - app_switch: 3
+    - mouse_click: 3
+    - browser_click: 3
+    - keystroke: 2
+    - mouse_scroll: 1
+    - clipboard_change: 1
+    - shortcut: 1
+    - browser_form_input: 1
+  extracted/useful text:
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - Excel
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/02 00:36:50
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+1
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 1 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07046967-001
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7998
+536,841円
+定常
+登録済み
+P6-07046967-002
+V3004
+関西物流サービス
+請求書承認 INV-2026-7999
+2,691,742円
+定常
+登録済み
+P6-07046967-003
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-8000
+380,199円
+定常
+登録済み
+P6-07046967-004
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-8001
+784,303円
+定常
+登録済み
+P6-0704...
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - *精算確認メモ - Notepad
+    - Translate page from Japanese?
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - Settings | Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - 請求書照合完了。INV-2026-8009　金額：1,876,206円。差異なし承認。
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+
+SEGMENT 41
+  label: 請求書承認・経費精算
+  start: 2026-07-01T19:07:05.059Z
+  end: 2026-07-01T19:07:40.981Z
+  duration_s: 35.922
+  events_in_segment: 21
+  apps:
+    - NONE
+  urls:
+    - http://127.0.0.1:5132/#/payroll-items
+    - http://127.0.0.1:5133/#/payroll-items
+  event_types:
+    - screenshot_smart: 6
+    - app_switch: 4
+    - mouse_scroll: 3
+    - mouse_click: 2
+    - browser_click: 2
+    - keystroke: 2
+    - window_title_change: 1
+    - shortcut: 1
+  extracted/useful text:
+    - Settings | Microsoft Teams
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - 財務会計システム
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/02 00:37:04
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+1
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 0 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07046967-001
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7998
+536,841円
+定常
+登録済み
+P6-07046967-002
+V3004
+関西物流サービス
+請求書承認 INV-2026-7999
+2,691,742円
+定常
+登録済み
+P6-07046967-003
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-8000
+380,199円
+定常
+登録済み
+P6-07046967-004
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-8001
+784,303円
+定常
+登録済み
+P6-0704...
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - *精算確認メモ - Notepad
+    - Translate page from Japanese?
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - File Explorer
+    - Home - File Explorer
+    - http://127.0.0.1:5133/#/payroll-items
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/02 00:37:37
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+1
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 0 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07046967-001
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7998
+536,841円
+定常
+登録済み
+P6-07046967-002
+V3004
+関西物流サービス
+請求書承認 INV-2026-7999
+2,691,742円
+定常
+登録済み
+P6-07046967-003
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-8000
+380,199円
+定常
+登録済み
+P6-07046967-004
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-8001
+784,303円
+定常
+登録済み
+P6-0704...
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/02 00:37:39
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+1
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+12
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 0 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07046967-001
+V3003
+東京電子工業株式会社
+請求書承認 INV-2026-7998
+536,841円
+定常
+登録済み
+P6-07046967-002
+V3004
+関西物流サービス
+請求書承認 INV-2026-7999
+2,691,742円
+定常
+登録済み
+P6-07046967-003
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-8000
+380,199円
+定常
+登録済み
+P6-07046967-004
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-8001
+784,303円
+定常
+登録済み
+P6-0704...
+    - HR人事給与システム
+
+
+####################################################################################################
+SESSION: ses_20260701-192455-NEELA9BAF
+####################################################################################################
+
+SEGMENT 42
+  label: 請求書承認・経費精算
+  start: 2026-07-01T19:34:18.194Z
+  end: 2026-07-01T19:34:34.380Z
+  duration_s: 16.186
+  events_in_segment: 27
+  apps:
+    - NONE
+  urls:
+    - NONE
+  event_types:
+    - screenshot_smart: 7
+    - app_switch: 6
+    - keystroke: 4
+    - mouse_click: 4
+    - mouse_scroll: 3
+    - clipboard_change: 1
+    - shortcut: 1
+    - window_title_change: 1
+  extracted/useful text:
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - Excel
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/02 01:04:17
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+12
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+4
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 11 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07040532-001
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7968
+415,472円
+定常
+登録済み
+P6-07040532-002
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7969
+726,087円
+定常
+未処理
+P6-07040532-003
+V3007
+福岡システム設計
+請求書承認 INV-2026-7970
+1,692,924円
+調整
+未処理
+P6-07040532-004
+V3004
+関西物流サービス
+請求書承認 INV-2026-7971
+3,204,161円
+調整
+未処理
+P6-070405...
+    - Restore pages
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - gyomu_itaku_ukeire_tetsuzuki  -  Compatibility Mode - Word
+    - shinkuitorihikisaki_touroku_tetsuzuki  -  Compatibility Mode - Word
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - *在庫調整メモ - Notepad
+    - Settings | Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - http://127.0.0.1:5133/#/payroll-items
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7969　金額：726,087円。差異なし承認。
+    - 請求書照合完了。INV-2026-7506　金額：3,037,210円。差異あり要確認。月次定額取引先一覧概要毎月定額で請求が発生する取引先の一覧。請求書承認時の金額照合に使用する。定額取引先リストNo.1　株式会社山田製作所　製造委託費　月額 385,000円No.2　大和商事株式会社　原材料仕入　月額 1,240,000円No.3　東京電子工業株式会社　保守費　月額 562,800円No.4　グローバルテック合同会社　SaaS利用料　月額 745,000円No.5　北陸電子部品　部品供給　月額 420,000円照合手順受領した請求書のINV番号・金額・取引先名をこの一覧と照合すること。差異がある場合は要確認として保留する。
+    - Word
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+
+SEGMENT 43
+  label: id_INV
+  start: 2026-07-01T19:34:34.892Z
+  end: 2026-07-01T19:34:49.943Z
+  duration_s: 15.051
+  events_in_segment: 47
+  apps:
+    - NONE
+  urls:
+    - NONE
+  event_types:
+    - keystroke: 28
+    - screenshot_smart: 6
+    - shortcut: 4
+    - mouse_click: 2
+    - app_switch: 2
+    - text_input_complete: 2
+    - clipboard_change: 1
+    - window_title_change: 1
+    - window_state_change: 1
+  extracted/useful text:
+    - 請求書照合完了。INV-2026-7970　金額：1,692,924円。差異あり要確認。
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - gyomu_itaku_ukeire_tetsuzuki  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - shinkuitorihikisaki_touroku_tetsuzuki  -  Compatibility Mode - Word
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - *在庫調整メモ - Notepad
+    - Settings | Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - Opening - Excel
+    - expense_calc - Excel
+    - Excel
+    - 726087
+    - evt_5d06a200-7fb8-48d0-a0b8-9825807122f3
+    - evt_d6b76cd1-d7c1-4b68-b39e-6b8bbe9933aa
+    - evt_018d0852-9800-4d61-af2f-55d91062563d
+    - evt_7152bb37-6269-4179-a61d-989d00575ebd
+    - =320
+    - evt_187b4580-0151-4445-996c-9a0f8e5df251
+    - evt_59287845-0da3-4dab-8709-617d65418fa6
+    - evt_2f13c7c0-00f3-4792-a00d-169c27a449e1
+    - evt_a7715adf-11e7-4e29-b406-d14e3d98f50d
+    - 4161
+    - http://127.0.0.1:5133/#/payroll-items
+
+SEGMENT 44
+  label: 請求書承認・経費精算
+  start: 2026-07-01T19:34:50.293Z
+  end: 2026-07-01T19:35:04.696Z
+  duration_s: 14.403
+  events_in_segment: 20
+  apps:
+    - NONE
+  urls:
+    - NONE
+  event_types:
+    - screenshot_smart: 5
+    - keystroke: 4
+    - mouse_click: 4
+    - mouse_scroll: 3
+    - app_switch: 2
+    - clipboard_change: 1
+    - shortcut: 1
+  extracted/useful text:
+    - 財務会計システム - Profile 1 - Microsoft​ Edge
+    - Excel
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/02 01:04:50
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+10
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+4
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 9 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07040532-001
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7968
+415,472円
+定常
+登録済み
+P6-07040532-002
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7969
+726,087円
+定常
+登録済み
+P6-07040532-003
+V3007
+福岡システム設計
+請求書承認 INV-2026-7970
+1,692,924円
+調整
+登録済み
+P6-07040532-004
+V3004
+関西物流サービス
+請求書承認 INV-2026-7971
+3,204,161円
+調整
+未処理
+P6-07040...
+    - Restore pages
+    - getsujitsu_teigaku_torihikisaki_ichiran  -  Compatibility Mode - Word
+    - gyomu_itaku_ukeire_tetsuzuki  -  Compatibility Mode - Word
+    - HR人事給与システム - Profile 1 - Microsoft​ Edge
+    - shinkuitorihikisaki_touroku_tetsuzuki  -  Compatibility Mode - Word
+    - 受発注在庫管理システム - Profile 1 - Microsoft​ Edge
+    - *在庫調整メモ - Notepad
+    - Settings | Microsoft Teams
+    - ProcMine Agent
+    - Windows PowerShell
+    - com.procmine.agent-siw
+    - Program Manager
+    - http://127.0.0.1:5133/#/payroll-items
+    - CF_UNICODETEXT
+    - Format_16
+    - CF_TEXT
+    - CF_OEMTEXT
+    - 請求書照合完了。INV-2026-7971　金額：3,204,161円。差異あり要確認。
+    - 財務
+財務会計システム
+2026年度 · 経理部門
+2026/07/02 01:05:03
+佐藤 直樹 · 経理マネージャー
+佐
+財務会計業務
+ダッシュボード
+請求書承認・経費精算
+9
+経費承認（管理職）
+12
+支払処理
+12
+予算差異分析
+12
+発注管理
+4
+ダッシュボード / 請求書承認・経費精算
+請求書承認・経費精算
+12 件 · 8 件未処理
+処理待ち一覧
+ID
+社員ID
+氏名
+区分
+金額
+種別
+ステータス
+P6-07040532-001
+V3006
+北陸部品工業株式会社
+請求書承認 INV-2026-7968
+415,472円
+定常
+登録済み
+P6-07040532-002
+V3005
+グローバルテック合同会社
+請求書承認 INV-2026-7969
+726,087円
+定常
+登録済み
+P6-07040532-003
+V3007
+福岡システム設計
+請求書承認 INV-2026-7970
+1,692,924円
+調整
+登録済み
+P6-07040532-004
+V3004
+関西物流サービス
+請求書承認 INV-2026-7971
+3,204,161円
+調整
+登録済み
+P6-07040...
+
+====================================================================================================
+END OF REPORT
+====================================================================================================

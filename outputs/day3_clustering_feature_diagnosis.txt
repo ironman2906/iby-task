@@ -1,0 +1,85 @@
+Total segments: 585
+Text feature matrix shape: (585, 300)
+Numeric feature matrix shape: (585, 3)
+Combined matrix shape: (585, 303)
+
+--- Text vector norms (before combining with numeric) ---
+  min=1.0000  median=1.0000  max=1.0000
+  Segments with near-zero text vector (empty/boilerplate-only after TF-IDF): 0 / 585
+
+--- Numeric feature (normalized) stats ---
+  duration: min=-0.76 max=11.87 std=1.00
+  n_events: min=-1.48 max=5.56 std=1.00
+  unique_apps: min=-0.72 max=4.92 std=1.00
+
+--- Pairwise cosine distance on COMBINED matrix (n=170820 pairs) ---
+  min=0.0000  5th=0.1119  25th=0.4332  median=0.6701  75th=0.8983  max=1.3788
+
+--- k-distance (k=2) plot data, for eps elbow selection ---
+  10th percentile of sorted k-distances: 0.0003
+  25th percentile of sorted k-distances: 0.0022
+  50th percentile of sorted k-distances: 0.0078
+  75th percentile of sorted k-distances: 0.0327
+  90th percentile of sorted k-distances: 0.0910
+  95th percentile of sorted k-distances: 0.1461
+  99th percentile of sorted k-distances: 0.2400
+
+--- Largest k-distances ---
+  0.1461
+  0.1462
+  0.1484
+  0.1543
+  0.1545
+  0.1583
+  0.1605
+  0.1614
+  0.1636
+  0.1636
+  0.1692
+  0.1692
+  0.1749
+  0.1753
+  0.1781
+  0.1798
+  0.1859
+  0.1862
+  0.2055
+  0.2055
+  0.2261
+  0.2281
+  0.2345
+  0.2357
+  0.2400
+  0.2621
+  0.2659
+  0.2663
+  0.3514
+  0.3831
+  (Look for the 'elbow' -- the point where k-distance sharply increases -- that value is a principled eps candidate, not an arbitrary percentile choice)
+
+--- Top 20 highest-weight n-grams (candidates for boilerplate, NOT yet confirmed) ---
+  'e ': 71.79
+  '--': 70.65
+  '---': 67.59
+  '----': 65.56
+  '.0': 46.83
+  '0.': 46.82
+  '.0.': 46.77
+  '12': 46.76
+  'hr': 44.61
+  ' -': 42.26
+  '- ': 41.71
+  ' - ': 40.72
+  'le': 38.72
+  'ro': 36.78
+  ' h': 34.84
+  ' c': 34.78
+  'om': 34.39
+  'ステ': 34.07
+  'me': 33.87
+  'ch': 33.44
+
+--- Same-app vs different-app distance (sanity check) ---
+  Same app pairs (n=98810): median dist = 0.5140
+  Diff app pairs (n=72010): median dist = 0.8942
+  (If these are nearly equal, distance isn't even separating by app -- a stronger red flag)

@@ -1,0 +1,40 @@
+Dataset B sessions: 15
+Total events: 20477
+
+--- Event type distribution ---
+  screenshot_smart              4759  (23.2%)
+  keystroke                     4678  (22.8%)
+  mouse_click                   2133  (10.4%)
+  browser_click                 1914  (9.3%)
+  mouse_scroll                  1724  (8.4%)
+  app_switch                    1654  (8.1%)
+  shortcut                      1386  (6.8%)
+  clipboard_change               872  (4.3%)
+  browser_form_input             608  (3.0%)
+  browser_navigation             204  (1.0%)
+  window_title_change            186  (0.9%)
+  window_state_change            120  (0.6%)
+  text_input_complete             77  (0.4%)
+  extension_connected             42  (0.2%)
+  extension_disconnected          42  (0.2%)
+
+--- Layer distribution ---
+  L2            12831  (62.7%)
+  L1             4759  (23.2%)
+  L3             2764  (13.5%)
+  SYSTEM          123  (0.6%)
+
+--- Top apps used ---
+  Microsoft Edge                    13300
+  Microsoft Word                     3704
+  Microsoft Excel                    1201
+  OpenWith                            757
+  Notepad                             599
+  WindowsTerminal                     407
+  procmine-desktop-agent              205
+  Windows Explorer                     78
+  ms-teams                             73
+  prl_cc                               28
+
+url present: 46.5%  (Dataset A was 52.6%)
+extracted_text present: 4.6%  (Dataset A was 4.5%)

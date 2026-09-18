@@ -1,0 +1,17 @@
+ses_20260701-164424-CHAITANYA0BCF: 1613 events -> 36 segments
+ses_20260701-171614-CHAITANYA0BCF: 2015 events -> 42 segments
+ses_20260701-173246-SIDDHIGUPTAB00B: 1439 events -> 52 segments
+ses_20260701-173642-NEELA9BAF: 1136 events -> 34 segments
+ses_20260701-175258-LAPTOP-76QMG9DE: 1550 events -> 47 segments
+ses_20260701-175747-SIDDHIGUPTAB00B: 1309 events -> 40 segments
+ses_20260701-180923-NEELA9BAF: 1349 events -> 34 segments
+ses_20260701-181413-LAPTOP-76QMG9DE: 1518 events -> 43 segments
+ses_20260701-181913-SIDDHIGUPTAB00B: 1165 events -> 31 segments
+ses_20260701-182634-NEELA9BAF: 1001 events -> 29 segments
+ses_20260701-183232-LAPTOP-76QMG9DE: 781 events -> 31 segments
+ses_20260701-184201-LAPTOP-76QMG9DE: 1895 events -> 62 segments
+ses_20260701-190250-NEELA9BAF: 1146 events -> 38 segments
+ses_20260701-191537-LAPTOP-76QMG9DE: 1562 events -> 36 segments
+ses_20260701-192455-NEELA9BAF: 998 events -> 34 segments
+
+Total segments across all Dataset B sessions: 589

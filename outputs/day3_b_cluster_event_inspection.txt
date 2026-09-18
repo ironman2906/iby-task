@@ -1,0 +1,380 @@
+DATASET B - CLUSTER EVENT INSPECTION
+================================================================================
+Total segments: 589
+Total distinct labels: 15
+Top 5 clusters: ['cluster_6', 'cluster_2', 'cluster_7', 'cluster_8', 'cluster_9']
+
+================================================================================
+CLUSTER: cluster_6 (total segments: 67)
+================================================================================
+
+  SAMPLE 1
+  Session: ses_20260701-164424-CHAITANYA0BCF
+  Segment: 2026-07-01T16:45:56.154Z -> 2026-07-01T16:46:06.684Z
+  Event count: 18
+  Event types:
+    screenshot_smart: 4
+    mouse_click: 3
+    browser_click: 3
+    mouse_scroll: 3
+    keystroke: 2
+    clipboard_change: 1
+    shortcut: 1
+    browser_form_input: 1
+  Active apps:
+    Microsoft Edge: 18
+  Window titles:
+    HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+  URLs:
+    http://127.0.0.1:5132/#/payroll-items
+  Extracted text samples:
+    給与変更登録。変更種別：扶養控除変更。適用日：2026-07-02。確認完了。
+
+  SAMPLE 2
+  Session: ses_20260701-164424-CHAITANYA0BCF
+  Segment: 2026-07-01T16:46:07.192Z -> 2026-07-01T16:46:38.457Z
+  Event count: 56
+  Event types:
+    screenshot_smart: 14
+    keystroke: 10
+    mouse_click: 8
+    browser_click: 8
+    mouse_scroll: 6
+    clipboard_change: 3
+    shortcut: 3
+    browser_form_input: 3
+    app_switch: 1
+  Active apps:
+    Microsoft Edge: 56
+  Window titles:
+    HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge
+  URLs:
+    http://127.0.0.1:5132/#/payroll-items
+  Extracted text samples:
+    給与変更登録。変更種別：残業手当調整。適用日：2026-07-02。確認完了。
+    人事 HR人事給与システム 2026年度 · 人事部門 2026/07/01 22:16:37 田中 麻里 · 人事マネージャー 田 人事業務 ダッシュボード 経費精算・給与変更 21 勤怠・休暇申請 12 入社手続き 12 福利厚生申請 12 住民税・その他 0 ダッシュボード / 経費精算・給与変更 経費精算・給与変更 24 件 · 20 件未処理 処理待ち一覧 ID 社員ID 氏名 区分 金額 種別 ステータス P1-07010448-001 E2005 岡田 智也 交通費精算 6,066円 定常 未処理 P1-07010448-002 E2004 江口 さくら 出張旅費 61,460円
+
+  SAMPLE 3
+  Session: ses_20260701-171614-CHAITANYA0BCF
+  Segment: 2026-07-01T17:17:32.788Z -> 2026-07-01T17:17:46.954Z
+  Event count: 32
+  Event types:
+    screenshot_smart: 9
+    keystroke: 6
+    mouse_scroll: 5
+    mouse_click: 4
+    browser_click: 4
+    app_switch: 1
+    clipboard_change: 1
+    shortcut: 1
+    browser_form_input: 1
+  Active apps:
+    Microsoft Edge: 32
+  Window titles:
+    財務会計システム - Profile 1 - Microsoft​ Edge
+    HR人事給与システム - Profile 1 - Microsoft​ Edge
+  URLs:
+    http://127.0.0.1:5132/#/payroll-items
+  Extracted text samples:
+    財務 財務会計システム 2026年度 · 経理部門 2026/07/01 22:47:32 佐藤 直樹 · 経理マネージャー 佐 財務会計業務 ダッシュボード 請求書承認・経費精算 12 経費承認（管理職） 12 支払処理 12 予算差異分析 12 発注管理 9 ダッシュボード / 発注管理 発注管理 12 件 一覧 ID 社員ID 氏名 項目 金額 ステータス P10-07054374-001 V3003 東京電子工業株式会社 発注管理 PO-2026-5094  未確認 P10-07054374-002 V3003 東京電子工業株式会社 発注管理 PO-2026-5095  完了 P10-
+
+================================================================================
+CLUSTER: cluster_2 (total segments: 60)
+================================================================================
+
+  SAMPLE 1
+  Session: ses_20260701-164424-CHAITANYA0BCF
+  Segment: 2026-07-01T16:54:08.324Z -> 2026-07-01T16:54:27.948Z
+  Event count: 39
+  Event types:
+    keystroke: 12
+    screenshot_smart: 11
+    app_switch: 6
+    shortcut: 4
+    window_state_change: 1
+    window_title_change: 1
+    clipboard_change: 1
+    mouse_click: 1
+    browser_click: 1
+    mouse_scroll: 1
+  Active apps:
+    Microsoft Word: 35
+    Microsoft Edge: 4
+  Window titles:
+    shinkuitorihikisaki_touroku_tetsuzuki [Compatibility Mode] - Word
+    keiyaku_kaijo_tetsuzuki [Compatibility Mode] - Word
+    受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+  URLs:
+    http://127.0.0.1:5134/#/leave-applications
+  Extracted text samples:
+    契約解除手続き第１条（適用範囲）取引先・業務委託先との契約解除に必要な手続きを定める。第２条（解除通知）契約解除は書面による通知を要する。通知は解除日の30日前までに行うこと。第３条（精算）解除時に未払い債務・前払い費用の精算を行う。経理部と協議の上、最終精算書を作成する。第４条（書類保管）解除通知書・精算書は契約関連書類として5年間保管する。附則本手続きは2026年4月1日より施行する。契約処理記録取引先: 福岡システム設計　種別: 取引基本契約 (新規締結)処理区分: 新規締結　処理日: 2026-07-01担当者: 高橋健司契約処理記録取引先:
+
+  SAMPLE 2
+  Session: ses_20260701-164424-CHAITANYA0BCF
+  Segment: 2026-07-01T16:54:54.760Z -> 2026-07-01T16:55:04.771Z
+  Event count: 27
+  Event types:
+    keystroke: 12
+    screenshot_smart: 6
+    shortcut: 4
+    app_switch: 3
+    window_title_change: 1
+    clipboard_change: 1
+  Active apps:
+    Microsoft Word: 27
+  Window titles:
+    shinkui_keiyaku_tetsuzuki [Compatibility Mode] - Word
+    keiyaku_kaijo_tetsuzuki [Compatibility Mode] - Word
+  URLs:
+    None
+  Extracted text samples:
+    契約解除手続き第１条（適用範囲）取引先・業務委託先との契約解除に必要な手続きを定める。第２条（解除通知）契約解除は書面による通知を要する。通知は解除日の30日前までに行うこと。第３条（精算）解除時に未払い債務・前払い費用の精算を行う。経理部と協議の上、最終精算書を作成する。第４条（書類保管）解除通知書・精算書は契約関連書類として5年間保管する。附則本手続きは2026年4月1日より施行する。契約処理記録取引先: 福岡システム設計　種別: 取引基本契約 (新規締結)処理区分: 新規締結　処理日: 2026-07-01担当者: 高橋健司契約処理記録取引先:
+
+  SAMPLE 3
+  Session: ses_20260701-164424-CHAITANYA0BCF
+  Segment: 2026-07-01T16:55:09.057Z -> 2026-07-01T16:55:09.155Z
+  Event count: 2
+  Event types:
+    browser_navigation: 1
+    screenshot_smart: 1
+  Active apps:
+    Microsoft Word: 2
+  Window titles:
+    shinkui_keiyaku_tetsuzuki [Compatibility Mode] - Word
+  URLs:
+    http://127.0.0.1:5133/#/dashboard
+  Extracted text samples:
+    None
+
+================================================================================
+CLUSTER: cluster_7 (total segments: 57)
+================================================================================
+
+  SAMPLE 1
+  Session: ses_20260701-164424-CHAITANYA0BCF
+  Segment: 2026-07-01T16:44:24.390Z -> 2026-07-01T16:44:39.061Z
+  Event count: 39
+  Event types:
+    app_switch: 9
+    screenshot_smart: 8
+    keystroke: 6
+    window_state_change: 4
+    browser_error: 3
+    browser_navigation: 3
+    extension_connected: 3
+    session_start: 1
+    mouse_click: 1
+    window_title_change: 1
+  Active apps:
+    Microsoft Edge: 29
+    WindowsTerminal: 6
+  Window titles:
+    Windows PowerShell
+    Untitled and 1 more page - Profile 1 - Microsoft​ Edge
+    受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge
+    Turn off extensions in developer mode
+  URLs:
+    http://127.0.0.1:5132/
+    http://127.0.0.1:5134/
+    http://127.0.0.1:5133/
+  Extracted text samples:
+    Windows PowerShell                                                             Copyright (C) Microsoft Corporation. All rights reserved.                                                                                                     Install the latest PowerShell for new features and improveme
+    For quick access, place your favorites here on the favorites bar. Manage favorites now Address and search bar 127.0.0.1:5133 New tab Untitled
+    Translate page from Japanese? For quick access, place your favorites here on the favorites bar. Manage favorites now Translate page from Japanese? Address and search bar 127.0.0.1:5134 New tab 受発注在庫管理システム Translate to English
+
+  SAMPLE 2
+  Session: ses_20260701-164424-CHAITANYA0BCF
+  Segment: 2026-07-01T16:44:50.860Z -> 2026-07-01T16:45:04.692Z
+  Event count: 19
+  Event types:
+    screenshot_smart: 6
+    app_switch: 3
+    mouse_click: 3
+    browser_click: 3
+    keystroke: 2
+    shortcut: 1
+    mouse_scroll: 1
+  Active apps:
+    Microsoft Edge: 13
+    Microsoft Word: 6
+  Window titles:
+    getsujitsu_teigaku_torihikisaki_ichiran [Compatibility Mode] - Word
+    財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+  URLs:
+    http://127.0.0.1:5133/#/payroll-items
+  Extracted text samples:
+    月次定額取引先一覧概要毎月定額で請求が発生する取引先の一覧。請求書承認時の金額照合に使用する。定額取引先リストNo.1　株式会社山田製作所　製造委託費　月額 385,000円No.2　大和商事株式会社　原材料仕入　月額 1,240,000円No.3　東京電子工業株式会社　保守費　月額 562,800円No.4　グローバルテック合同会社　SaaS利用料　月額 745,000円No.5　北陸電子部品　部品供給　月額 420,000円照合手順受領した請求書のINV番号・金額・取引先名をこの一覧と照合すること。差異がある場合は要確認として保留する。
+
+  SAMPLE 3
+  Session: ses_20260701-164424-CHAITANYA0BCF
+  Segment: 2026-07-01T16:45:35.684Z -> 2026-07-01T16:45:43.119Z
+  Event count: 23
+  Event types:
+    screenshot_smart: 6
+    keystroke: 4
+    mouse_scroll: 3
+    mouse_click: 3
+    browser_click: 3
+    app_switch: 1
+    clipboard_change: 1
+    shortcut: 1
+    browser_form_input: 1
+  Active apps:
+    Microsoft Edge: 23
+  Window titles:
+    財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge
+  URLs:
+    http://127.0.0.1:5133/#/payroll-items
+  Extracted text samples:
+    財務 財務会計システム 2026年度 · 経理部門 2026/07/01 22:15:35 佐藤 直樹 · 経理マネージャー 佐 財務会計業務 ダッシュボード 請求書承認・経費精算 10 経費承認（管理職） 12 支払処理 12 予算差異分析 12 発注管理 12 ダッシュボード / 請求書承認・経費精算 請求書承認・経費精算 12 件 · 9 件未処理 処理待ち一覧 ID 社員ID 氏名 区分 金額 種別 ステータス P6-07010448-001 V3005 グローバルテック合同会社 請求書承認 INV-2026-7344 716,232円 調整 登録済み P6-07010448-002 
+
+================================================================================
+CLUSTER: cluster_8 (total segments: 51)
+================================================================================
+
+  SAMPLE 1
+  Session: ses_20260701-171614-CHAITANYA0BCF
+  Segment: 2026-07-01T17:24:16.172Z -> 2026-07-01T17:24:24.861Z
+  Event count: 19
+  Event types:
+    screenshot_smart: 5
+    mouse_click: 3
+    browser_click: 3
+    mouse_scroll: 3
+    keystroke: 2
+    clipboard_change: 1
+    shortcut: 1
+    browser_form_input: 1
+  Active apps:
+    Microsoft Edge: 19
+  Window titles:
+    HR人事給与システム - Profile 1 - Microsoft​ Edge
+  URLs:
+    http://127.0.0.1:5132/#/social-insurance
+  Extracted text samples:
+    福利厚生申請処理完了。種別：産前産後休暇申請。対象：産休中社保免除申請。
+
+  SAMPLE 2
+  Session: ses_20260701-171614-CHAITANYA0BCF
+  Segment: 2026-07-01T17:24:25.154Z -> 2026-07-01T17:24:36.858Z
+  Event count: 31
+  Event types:
+    screenshot_smart: 8
+    mouse_click: 5
+    browser_click: 5
+    keystroke: 4
+    mouse_scroll: 3
+    clipboard_change: 2
+    shortcut: 2
+    browser_form_input: 2
+  Active apps:
+    Microsoft Edge: 31
+  Window titles:
+    HR人事給与システム - Profile 1 - Microsoft​ Edge
+  URLs:
+    http://127.0.0.1:5132/#/social-insurance
+  Extracted text samples:
+    福利厚生申請処理完了。種別：住宅手当変更申請。対象：住居変更に伴う手当改定。
+
+  SAMPLE 3
+  Session: ses_20260701-171614-CHAITANYA0BCF
+  Segment: 2026-07-01T17:25:47.539Z -> 2026-07-01T17:26:09.224Z
+  Event count: 40
+  Event types:
+    screenshot_smart: 9
+    keystroke: 8
+    mouse_click: 7
+    browser_click: 7
+    mouse_scroll: 3
+    clipboard_change: 2
+    shortcut: 2
+    browser_form_input: 2
+  Active apps:
+    Microsoft Edge: 40
+  Window titles:
+    HR人事給与システム - Profile 1 - Microsoft​ Edge
+  URLs:
+    http://127.0.0.1:5132/#/social-insurance
+  Extracted text samples:
+    福利厚生申請処理完了。種別：育児休業申請。対象：育児休業期間中社保免除。
+
+================================================================================
+CLUSTER: cluster_9 (total segments: 50)
+================================================================================
+
+  SAMPLE 1
+  Session: ses_20260701-171614-CHAITANYA0BCF
+  Segment: 2026-07-01T17:16:48.696Z -> 2026-07-01T17:17:20.261Z
+  Event count: 48
+  Event types:
+    screenshot_smart: 13
+    keystroke: 8
+    mouse_click: 7
+    browser_click: 7
+    mouse_scroll: 4
+    app_switch: 3
+    clipboard_change: 2
+    shortcut: 2
+    browser_form_input: 2
+  Active apps:
+    Microsoft Edge: 37
+    Microsoft Word: 11
+  Window titles:
+    財務会計システム - Profile 1 - Microsoft​ Edge
+    shinkuitorihikisaki_touroku_tetsuzuki [Compatibility Mode] - Word
+  URLs:
+    http://127.0.0.1:5133/#/resident-tax
+  Extracted text samples:
+    発注管理処理。緊急発注：測定機器　数量 40　合計 149,920円　緊急。発注書確認・登録完了。
+
+  SAMPLE 2
+  Session: ses_20260701-171614-CHAITANYA0BCF
+  Segment: 2026-07-01T17:17:20.300Z -> 2026-07-01T17:17:30.922Z
+  Event count: 11
+  Event types:
+    keystroke: 2
+    screenshot_smart: 2
+    app_switch: 1
+    clipboard_change: 1
+    shortcut: 1
+    browser_form_input: 1
+    mouse_click: 1
+    browser_click: 1
+    browser_navigation: 1
+  Active apps:
+    Microsoft Edge: 11
+  Window titles:
+    財務会計システム - Profile 1 - Microsoft​ Edge
+  URLs:
+    http://127.0.0.1:5133/#/resident-tax
+    http://127.0.0.1:5132/#/payroll-items
+  Extracted text samples:
+    Restore pages For quick access, place your favorites here on the favorites bar. Manage favorites now Restore pages Address and search bar 127.0.0.1:5133/#/resident-tax 財務会計システム Microsoft Edge closed unexpectedly. 財務会計システム http://127.0.0.1:5133/#/resident-tax P10-07054374-003: 完了しました 財務 財務会計システム 2026
+
+  SAMPLE 3
+  Session: ses_20260701-171614-CHAITANYA0BCF
+  Segment: 2026-07-01T17:21:02.284Z -> 2026-07-01T17:21:13.495Z
+  Event count: 29
+  Event types:
+    keystroke: 12
+    screenshot_smart: 5
+    mouse_click: 2
+    browser_click: 2
+    shortcut: 2
+    app_switch: 2
+    clipboard_change: 1
+    browser_form_input: 1
+    window_title_change: 1
+    text_input_complete: 1
+  Active apps:
+    Microsoft Excel: 17
+    Microsoft Edge: 12
+  Window titles:
+    財務会計システム - Profile 1 - Microsoft​ Edge
+    Opening - Excel
+    budget_analysis - Excel
+  URLs:
+    http://127.0.0.1:5133/#/social-insurance
+  Extracted text samples:
+    予算差異分析完了。開発部　予算 8,500,000 / 実績 8,128,818 (差異 -4.4%)。是正対応方針を記録。
+    =94

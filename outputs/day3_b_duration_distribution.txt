@@ -1,0 +1,5 @@
+n segments: 589
+median duration (s): 13.12
+mean duration (s): 16.4310882852292
+% under 10s: 35.31409168081494
+% under 5s: 9.67741935483871

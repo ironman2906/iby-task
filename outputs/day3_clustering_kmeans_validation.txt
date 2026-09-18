@@ -1,0 +1,20 @@
+Cluster label -> true process_code distribution:
+
+'cluster_0': {'H': 2, 'A': 5, 'C': 7, 'I': 14, 'N': 10, 'D': 5, 'E': 4, 'O': 3, 'J': 1, 'F': 2, 'M': 4, 'B': 1, 'L': 1, 'K': 2}
+'cluster_1': {'O': 12, 'L': 28, 'M': 9, 'K': 16, 'D': 1, 'N': 2}
+'cluster_10': {'M': 9, 'K': 20, 'L': 14, 'N': 3, 'O': 12, 'A': 1, 'H': 1}
+'cluster_11': {'J': 6, 'G': 20, 'H': 7, 'F': 4}
+'cluster_12': {'B': 9, 'E': 2, 'C': 3, 'D': 4, 'A': 3, 'J': 1}
+'cluster_13': {'M': 5, 'C': 16, 'E': 4, 'D': 9, 'A': 5, 'B': 3, 'I': 1, 'K': 1, 'F': 1}
+'cluster_14': {'G': 1, 'K': 1}
+'cluster_2': {'A': 29, 'C': 11, 'E': 15, 'D': 5, 'B': 15, 'G': 1}
+'cluster_3': {'A': 2, 'N': 6, 'F': 5, 'D': 13, 'E': 5, 'H': 2, 'J': 4, 'O': 3, 'G': 1, 'I': 2, 'M': 1, 'C': 1}
+'cluster_5': {'H': 28, 'C': 1, 'G': 17, 'F': 26, 'J': 18, 'I': 1}
+'cluster_6': {'M': 1, 'B': 1, 'D': 1, 'G': 1}
+'cluster_7': {'C': 3, 'I': 18, 'J': 1, 'B': 2, 'M': 1}
+'cluster_8': {'M': 11, 'C': 13}
+'cluster_9': {'N': 6, 'C': 1, 'D': 4, 'K': 3, 'H': 2, 'J': 1, 'F': 1, 'L': 1, 'G': 1}
+
+Overall cluster purity: 0.372  (n=580 matched segments)
+Number of distinct labels produced: 14
+(True number of distinct processes in these sessions: up to 15)
