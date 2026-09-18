@@ -211,4 +211,125 @@ Actions such as modifying the production finance system, submitting an approval 
 
 This narrow scope was chosen because the logs provide direct evidence for the reconciliation rule, while they do not provide enough information to safely specify the complete downstream finance-system workflow.
 
-A working prototype will be used to validate whether this scope is technically feasible before considering broader automation. 
+
+## 12. Step 3 Prototype Implementation and Results
+
+A deterministic invoice reconciliation prototype was implemented in:
+
+`src/exploration/invoice_reconciliation_prototype.py`
+
+The prototype scans the real Dataset B `extracted_text` records, identifies the vendor master and invoice rows, and applies conservative reconciliation logic.
+
+The prototype does not write to a production finance system, submit approvals, or use an AI agent. It only produces an `approve` or `hold_for_review` decision with an explanation and source provenance.
+
+### 12.1 Decision Logic
+
+The implementation uses the following evidence-based decision order:
+
+1. If the vendor is not present in the fixed-amount vendor master, hold for review.
+2. If the vendor has an ambiguous or malformed master entry, hold for review.
+3. If the invoice type is `定常`, approve.
+4. If the invoice type is `調整`, hold for review.
+5. If the invoice type cannot be determined, hold for review.
+
+The `定常`/`調整` rule is an evidence-based prototype hypothesis rather than a confirmed production business rule.
+
+The amount difference between the invoice and the master value is retained in the output for provenance and diagnostics, but is not used as an invented tolerance threshold.
+
+### 12.2 Real Dataset B Results
+
+The prototype successfully parsed 108 deduplicated invoice rows from Dataset B:
+
+| Result | Count |
+|---|---:|
+| Real invoice rows | 108 |
+| `定常` | 68 |
+| `調整` | 40 |
+| Approved | 28 |
+| Held for review | 80 |
+
+Under the previous exact-amount rule, all 108 rows were held because the invoice amount did not have to equal the fixed master amount exactly.
+
+The new evidence-based prototype changed 28 of those decisions from `hold_for_review` to `approve`.
+
+Therefore, 28/108 observed invoice rows (25.9%) were automatically resolved by the prototype on this dataset, while 80/108 (74.1%) remained for human review.
+
+This percentage is an observed Dataset B result, not an estimate of production time savings or production automation coverage.
+
+### 12.3 Examples
+
+A known vendor with `定常` type was approved even when the invoice amount differed from the master amount.
+
+For example:
+
+`大和商事株式会社 | INV-2026-7346 | ¥1,237,439 | 定常 -> approve`
+
+The master amount was ¥1,240,000, so the difference was ¥2,561. The difference was reported but did not determine the decision.
+
+A known vendor with `調整` type was held for review even when the amount difference was small.
+
+For example:
+
+`グローバルテック合同会社 | INV-2026-7344 | ¥716,232 | 調整 -> hold_for_review`
+
+This demonstrates why an amount-based tolerance was not introduced without supporting evidence.
+
+Unknown vendors were also conservatively held for review rather than approved solely because their invoice type was `定常`.
+
+### 12.4 Edge-Case Testing
+
+Synthetic tests were added for the main safety conditions:
+
+- known vendor + `定常` → approve;
+- known vendor + `調整` → hold;
+- known vendor + unclear type → hold;
+- unknown vendor + `定常` → hold;
+- malformed amount → hold;
+- duplicate invoice number → hold.
+
+The prototype passed these dedicated edge-case checks.
+
+### 12.5 Manual Work Remaining
+
+The prototype does not eliminate the complete invoice-processing workflow.
+
+Human review remains necessary for:
+
+- vendors absent from the reference master;
+- ambiguous vendor names;
+- `調整` invoices;
+- unclear or missing invoice type;
+- malformed or incomplete invoice fields;
+- duplicate invoice numbers;
+- exceptions requiring business judgement;
+- final approval and production-system submission.
+
+In the observed Dataset B run, 80 of 108 invoice rows remained in the review path. This is intentional: the prototype prioritizes conservative handling of unsupported cases rather than attempting to maximize automatic approval.
+
+### 12.6 Realistic Impact
+
+The prototype demonstrates that a bounded portion of the observed reconciliation work can be converted from manual decision-making into a deterministic check.
+
+The observed result is 28 automatically resolved rows out of 108. However, this should not be interpreted as 25.9% end-to-end time savings.
+
+The remaining manual work, the time required to investigate held cases, production-system interaction, and the fact that Dataset B is test-environment data all limit what can be inferred about production impact.
+
+A production deployment would require validation against real business outcomes before automatic approval is enabled.
+
+### 12.7 Implementation and Rollout Risks
+
+| Risk | Mitigation |
+|---|---|
+| The `定常`/`調整` rule is supported by a small observed sample | Validate the rule against additional historical outcomes before production use |
+| Vendor names may differ from the reference master | Use controlled vendor IDs or an approved alias table; keep uncertain matches in human review |
+| Missing or noisy extracted text may cause incorrect parsing | Validate required fields and route incomplete records to review |
+| Duplicate invoice numbers may cause unsafe repeated processing | Detect duplicates and hold them |
+| Prototype decisions could be mistaken for production approvals | Keep the prototype read-only until formally validated and integrated |
+| Dataset B does not provide production-scale timing evidence | Measure impact during a controlled production pilot |
+| Business rules may change | Keep decision logic explicit, version-controlled, and auditable |
+
+### 12.8 Prototype Limitation
+
+The current implementation demonstrates the reconciliation decision only. It does not perform OCR, interact with the finance portal, submit approvals, or replace human judgement for exceptions.
+
+The `定常`/`調整` decision rule should therefore be treated as a documented hypothesis derived from the observed logs, not as a confirmed production policy.
