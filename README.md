@@ -2,10 +2,9 @@
 
 An FDE-style project that turns raw, unlabeled PC operation logs (keystrokes, clicks,
 application switches) into 
-- (1) a segmentation of the log stream into discrete business-process
-executions, 
-- (2) a workload analysis and prioritized automation shortlist, and 
-- (3) a working prototype for the highest-priority candidate: an invoice reconciliation decision engine.
+  (1) a segmentation of the log stream into discrete business-process executions,   
+  (2) a workload analysis and prioritized automation shortlist, and  
+  (3) a working prototype for the highest-priority candidate: an invoice reconciliation decision engine.  
 
 ## Why this exists
 
