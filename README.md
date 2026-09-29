@@ -1,13 +1,11 @@
 # From Operation Logs to an Automation Proposal
 
 An FDE-style project that turns raw, unlabeled PC operation logs (keystrokes, clicks,
-application switches) into (1) a segmentation of the log stream into discrete business-process
-executions, (2) a workload analysis and prioritized automation shortlist, and (3) a working
-prototype for the highest-priority candidate: an invoice reconciliation decision engine.
-
-Built as a 7-day take-home task. See `README_TASK.md` for the original assignment brief,
-`FINAL_REPORT.md` for the full write-up, and `WORK_LOG.md` for a day-by-day account of what
-was tried, what failed, and why.
+application switches) into 
+-(1) a segmentation of the log stream into discrete business-process
+executions, 
+-(2) a workload analysis and prioritized automation shortlist, and 
+-(3) a working prototype for the highest-priority candidate: an invoice reconciliation decision engine.
 
 ## Why this exists
 
